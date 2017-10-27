@@ -8,7 +8,10 @@
 
 #import "ViewController.h"
 #import <BabyBluetooth/BabyBluetooth.h>
-#import <ReactiveCocoa/ReactiveCocoa.h>
+#import <ReactiveObjC/ReactiveObjC.h>
+
+
+
 
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic ,strong) UITableView *tableview;
@@ -63,6 +66,9 @@ static NSString *const worksCellId      = @"worksCellId";
     if (!self.dataDict) {
         self.dataDict = @{}.mutableCopy;
     }
+
+
+//    @weakify(self);
 
     __weak typeof(self) weakSelf = self;
 
