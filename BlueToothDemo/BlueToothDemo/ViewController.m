@@ -55,6 +55,8 @@ static NSString *const worksCellId      = @"worksCellId";
     _baby = [BabyBluetooth shareBabyBluetooth];
     [self babyDelegate];
     _baby.scanForPeripherals().begin();
+    //搜索设备10秒后停止
+    _baby.scanForPeripherals().begin().stop(10);
 }
 
 - (void)babyDelegate{
