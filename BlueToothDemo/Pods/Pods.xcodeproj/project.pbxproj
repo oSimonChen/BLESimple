@@ -7,230 +7,230 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		009853900BA6267B7B88616DBADE470E /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F614D85FC85EB4D57AC381B63E62987B /* Atomic.swift */; };
 		00C05031BBA5BA48A00FE41348F41BDA /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 67AF065D9D3EB0DAFEF72658CF5D10B2 /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0130B6ADB362A3712BDED0209D62F5AA /* UIFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7136A2BE6D3CFCBABBB3D622A7B22E /* UIFeedbackGenerator.swift */; };
-		068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D9F0EBCD06029994DEF3FDC7B76EB /* NSObject+MJProperty.m */; };
-		07159A933B3C47A02FE2B2744ABAAC89 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D808B4C4AE3C195AC86562FAED8881 /* MJRefreshStateHeader.m */; };
-		094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51F8B7DA5A8AD8D6D5991BE794B2F4 /* MJPropertyType.m */; };
+		00C0987C7C784E7DDBDA665ABDA1B41B /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B9EDE4B7A7302BDE7378C2174C8AC /* DelegateProxy.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		020002AD44B16CF561F4B515B83B37D7 /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6031283F70AC7FB5FD53FF36C0128831 /* MJRefreshBackFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		02EF2AA556A3EF5F8062C703A919FE88 /* ValidatingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95ADBE095525CC82D2C8A334C44F39 /* ValidatingProperty.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		0680838D6ACAD4DC119F8A7EE19FC654 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8EE2C534355DED81A91038413DAD2 /* Deprecations+Removals.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		075BD03B22848B54C3D82D5E1E796EAF /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 092927A7263B8CF75E8CD7471151FE5E /* AFImageDownloader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		09690A0911C7CF4611A09D161CECE39F /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FB5F3F1B8EB8083E8D0B07502A2B9 /* UIScrollView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		09D7B4E7E06A5C88B59F158C01C9E749 /* BabyCentralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23A8550B1DAD83D62D0A52BB8CF52250 /* BabyCentralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C1AD41792DAAB01259433E197C24 /* MJPropertyKey.m */; };
-		0A1E34B4A27DCD62A914F3B028A07E6C /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1BCA266C2945CB4A057D2413CF1D82 /* UIView+MJExtension.m */; };
-		0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DA317FEA07126CEE062F752A9EAA1D0E /* NSObject+MJKeyValue.m */; };
 		0D1FFD30267C0776FD3E88EFF51E312F /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B1062C37EC9393E39747943305F3A7 /* UIImageView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0EFB524EFDF2F8712A2F5067817A672E /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = F0CCA2E5F91A42EEC223DD080E10FDC1 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0F73F1F81CAAE1BD66A2630E9722CBEF /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3727CCFBC9C778005650E396429 /* BabyCentralManager.m */; };
-		0FBCF6CD9104A53653169ED5E9974205 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40489BE198E1ED14ED28A3A263CFCA04 /* Optional.swift */; };
 		0FF4C0279E853B8808661CCED55CB08A /* BabyCallback.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CA381DF799FE622443EA0A5562C83E4 /* BabyCallback.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		101F836F887C01B45F4DCF351EBC28D1 /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16E53C969DC6C611710C601544C90C /* MJRefreshBackNormalFooter.m */; };
+		107F08836C69745449052290594CBB25 /* UIImpact​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E60A1462834A4356ADB1FCA147A9B /* UIImpact​Feedback​Generator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		11BF0A3C217C5233EF08A6A2623CEA80 /* NSObject+MJClass.h in Headers */ = {isa = PBXBuildFile; fileRef = DE00DBF21383AF7C96303A57D4807867 /* NSObject+MJClass.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11D07A4134C4F6158513512E8C1A02ED /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D90D55A1CA0DA4E9C2EE78EF099AC6 /* UITextView.swift */; };
-		1229B0207F34407E7FA0D36D8C20D658 /* CocoaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFEF4E3E81B2FF5A2225DBC92980A25 /* CocoaTarget.swift */; };
-		140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09C69A0C3AF91589ED35DE505DA43B /* UIActivityIndicatorView+AFNetworking.m */; };
+		13FF8C00ED53DD54B47ADB3972788138 /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A6DDE8CF2C413E5E8171FF8606122 /* MJRefreshFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		16EA0E2BF9AC105240EAE4D7ED8074A6 /* ObjC+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE51E0C8D4DA0F4CCB87545116F7C57F /* ObjC+Messages.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		17F033046E658F3BFD0011DCB768CF54 /* MJRefreshBackNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2B16BA6D0EF0AF8D28D3A99EA9656718 /* MJRefreshBackNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1843E6DF520A5EFE9C83C38E18578E42 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBBAE053239FE020363C31B212442F /* MJRefreshAutoStateFooter.m */; };
-		18692C1EB983A36896287BED4C3CE58C /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B46121216383230A10EF77D2A36AA /* UINavigationItem.swift */; };
-		1CBDA9AFD57EE77CDE5CD9E572D59CDF /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE667ACF4FBEF23C138E7AFD216B9 /* UIBarButtonItem.swift */; };
+		1B3F47733A58136F5BECDD0850BE8E6C /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB94A88F4CFB58FB15F5D426D3FD2059 /* AFNetworkReachabilityManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1B500DE74D98F9B5E16786EB16AB9E37 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7F223DE077EEE7BB010EE027E53E5 /* Disposable.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1C5D0A9A917B64C91FC89DBF3F61ECFD /* NSObject+Intercepting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292957DE7984706597223C463037422A /* NSObject+Intercepting.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		1E2A6D057E20BE8F5ED3E594F7B8C286 /* AFNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BE358F181680FFC5EECA9576410F7F32 /* AFNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1E4977787B252F2B466457F0DB46BBB8 /* UnidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6852974475F5C0CE8A1A3E31E0B7422 /* UnidirectionalBinding.swift */; };
-		1E93042963DE5B6864983D39A84715BB /* UISelection​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E265E155CB726C41E45EADDD8F0D7 /* UISelection​Feedback​Generator.swift */; };
+		1E8AB98A9951E6836362F8ACE3E25D6F /* ReactiveCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C779013C13794E33D4081F3C061269D /* ReactiveCocoa-dummy.m */; };
 		1ED505CC385A149F4DF8F4B94BA4FC0B /* MJRefreshBackStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 57C97BF7675CB46EBCB9F501F075806F /* MJRefreshBackStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AC859FFB28B4CDF79AD3AB857001EB /* NSString+MJExtension.m */; };
 		1FBFD94316326DCB9485F8704696806B /* MJExtensionConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 747918FB9C72FD0DD889A0F509FC9703 /* MJExtensionConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		21018C0B2CBAC62777A3F77DFA8A793E /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B127921740FEDB2E816526984764F3 /* UIGestureRecognizer.swift */; };
 		236280F36CCAE7909937A02090AE5DF4 /* Pods-BlueToothDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0EE81746B064DE14DBB441A1226622 /* Pods-BlueToothDemoTests-dummy.m */; };
-		23C385110F6A010D1B8536C87886CFFF /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714044F19877A0E9BF6955C624148EA8 /* Signal.swift */; };
-		2524EC4EF024A6C067A0FA082084CFB5 /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE23A53A41ABCAF8C068611AD8E4 /* MJRefreshBackStateFooter.m */; };
-		25850414BF45997910172701B2BED53D /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6129B5813CC6F2F369255E698F2CF /* UIButton.swift */; };
-		25EE58D1F20FD0A2CD185C7419C00172 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDF6A257F08A29413381B2EAABA417 /* Reactive.swift */; };
-		263C7F9B9880E1FFB387B60FA717472D /* ObjC+Messages.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE51E0C8D4DA0F4CCB87545116F7C57F /* ObjC+Messages.swift */; };
-		26D419A792B77038FC26D877818B5716 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314BE0543FB85B5C0D9C141D651EA3F /* UIImageView.swift */; };
+		23C1B7920CF9440746782E683BCE2184 /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09E91A9ED6A51278D8EB28813A67D20 /* UIActivityIndicatorView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		27075F9C79C0E80A6B4E6B3ACFB2069F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		28A464AD5B0155EE07A1E77244BD14C3 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CFD0B24CB765857C92CD4324A6FCF /* Bag.swift */; };
-		29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBF47CD092F8529222BA419F9B90D3 /* AFURLRequestSerialization.m */; };
+		285049E4D97FF1782887F2BAD0441DAD /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F08961D4BBB17487A42F1F553FD393 /* MJRefresh-dummy.m */; };
+		28F2A48EB6D89C22CE1BACF861DFB444 /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA21BCA69B6E8F60E235B50481B544B /* UIControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		294F3BD474149338A52A6A38D35E0B20 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = FB3D9F0EBCD06029994DEF3FDC7B76EB /* NSObject+MJProperty.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		29A39E506282F8FA6FA3A560814ED0AD /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA78EDF35CEB877C4A9C842ED1438F4 /* Scheduler.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2A51A657E7A3CDE9A98492C509C6C978 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F614D85FC85EB4D57AC381B63E62987B /* Atomic.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2B0705CC26A4CBEE32A5A60284AED35B /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D11E92B665B2A1BD88E2041D54D367E6 /* UIButton+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2BDB7895DECFCD42106CA74C1FFF6C10 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 729687962CB16C894AE24DA06A2C0571 /* MJProperty.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2C58C145F07ACF253FCF66D0C2A0AD06 /* NSObject+ObjCRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670C9481F0F2158713FFE0DEC9E833E /* NSObject+ObjCRuntime.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2CEA12D52F3F7AC0669C99A157E19F62 /* MJRefreshBackGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F345F7EA8F75AE1030C906F776FEB31 /* MJRefreshBackGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D435312F0DFA69003EB72D0D14472DE /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E44791B3489BBC3B4AD9C4C2374F6 /* FoundationExtensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2E04F7FD19DB0B64EA10207786F864EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		2E30C1BC2A5D6FCC2F7F97CB9E9F2E34 /* ReactiveCocoa-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C779013C13794E33D4081F3C061269D /* ReactiveCocoa-dummy.m */; };
+		2E0C482BA4A49D6CF30D6AAF6315D4DD /* MJRefreshBackNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C16E53C969DC6C611710C601544C90C /* MJRefreshBackNormalFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		2EC27B08E73E6C445CD4D331BEE1C17C /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E72DFFAB835640E4ACC6C9314990B5C4 /* MJRefreshGifHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		2FFA03AB2A225349F5D1D50DB267EF7E /* Pods-BlueToothDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D169765C52FD6546C6836C437B259851 /* Pods-BlueToothDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		300CBC0CAF94969CD455A181B8C9F586 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 065508C749E1CAB7B266733B6622040E /* BabyBluetooth.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		30F0BAE1DBB79BBB6CBD957EA8B89E4B /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F72F33D8AC8A07D843B980D993D2358 /* MobileCoreServices.framework */; };
-		3168B793708836D2E69CE5D25DDD4FE0 /* UIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B429B891128CD956694A6FA5B6ECFF /* UIStepper.swift */; };
-		32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BD3EE5D52F1EB5D32F40C9871E08DE /* UIButton+AFNetworking.m */; };
-		344DB99F8332029C0391F08B6D0E425C /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FDCF76B5943625115AFE1C6088A7AB /* MJRefreshAutoNormalFooter.m */; };
-		34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2E0AED538F2A9428018365E54F2A /* UIProgressView+AFNetworking.m */; };
+		30F0DF738190BF292BBA46EFED2A7A4E /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C462E7956DE8441E743FA6E7139F8 /* ObjC+Selector.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		32BA26684908B13DAE00C5FF74375154 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA43A1CAEA312377A36AC8F36020B0 /* MKMapView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3315C85FAA2A265D2FD5C92E610A1A56 /* UIGestureRecognizer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B127921740FEDB2E816526984764F3 /* UIGestureRecognizer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3351DC0E241934B7F03AFE3493A1AC7F /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2432C2E2351BBEC74BA3C4F84C469BE8 /* UISearchBar.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		35CBB7B255FD8D412AFCECBC4311A847 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D241F06CE36459CC34D2158527DED3C /* AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35D685CF7C6F73A65AD3DD99674CA78F /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 623A21F79E52B1C90AC4E785F9734857 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		362F5E901BCB7766B3B8CC2C823844E5 /* ObjC+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21674AF5EDB27D7F9D129C64E1220645 /* ObjC+Constants.swift */; };
-		376FE8330EA6E1FE75D3E5E87A6EA9F3 /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFC1B93A2AB690486A07AB0323A4BC9 /* Result-dummy.m */; };
-		38176B6CA9F9864BD67E4C4C0F32588F /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39344D9DCA1F92BEA4E773EA913F0A11 /* UIDatePicker.swift */; };
-		3829CBCC3598DB13C2AD3B7383D1F24A /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = B92A6DDE8CF2C413E5E8171FF8606122 /* MJRefreshFooter.m */; };
+		360E57F5301BE39AB8E022B4AE9CA698 /* ObjC+RuntimeSubclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30C2221BBE1A0DDDE38439CF2C52D3 /* ObjC+RuntimeSubclassing.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36ABE804375596F34EA966A49CFB5DFE /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB3D4E1AFA0B3B28371FC700C27707 /* MJExtension-dummy.m */; };
 		383448308BB9C5CB67073E0A8DED4A43 /* NSObject+MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = 663A1F33AF23B4B46559C11552C5BB54 /* NSObject+MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3845B4FCF4F57923A14D592F3B14E088 /* BabyPeripheralManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EB1C4AF842FC1519DDD6C6F574752C20 /* BabyPeripheralManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		39FA8ECF2B2C7E8CE02A2489B6855CA9 /* NSObject+ObjCRuntime.swift in Sources */ = {isa = PBXBuildFile; fileRef = F670C9481F0F2158713FFE0DEC9E833E /* NSObject+ObjCRuntime.swift */; };
-		3D7035386B36B84F8CB6748B3AC9D360 /* NSObject+KeyValueObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249DB29BC4AA902D304E32D113F397D /* NSObject+KeyValueObserving.swift */; };
-		3EC66D399823676551208E8990FBA3F7 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3252DA5D86DDE86EABC9344AC262B7 /* Observer.swift */; };
-		3F2F90163AFF2E83A8D97FCF72903360 /* BabyBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 065508C749E1CAB7B266733B6622040E /* BabyBluetooth.m */; };
+		38CE88F20A27748EB841B690B1FE6343 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCAC58FD85A220364D970A3B156C09 /* MJRefreshAutoGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		413A7D4623004DD3DBD888B4CDB8F07A /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C69ECC8BBAACF007599959CEE60B99 /* UIImageView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		41DC6547C2367CF8CBBFE2C8FAFB5401 /* BabyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF018319EC06789F6CB35F30830DBCF /* BabyBluetooth-dummy.m */; };
 		42AF1BB1ED090CC9E588A463441D09E3 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8C2A5E30814C1695460B82B872C4BE1 /* SystemConfiguration.framework */; };
-		42B88A97F14516FCEC12484B3C5724D4 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD92154B3142860CCFCF59AAE31CBF /* Event.swift */; };
+		4398D0A4D9BB392EDB5D4835CB24A147 /* UINavigationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 753B46121216383230A10EF77D2A36AA /* UINavigationItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		43BBDF9D05E91AEAFFDE8A9790F7F890 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A53A5A81BE924C2D43C9B72C8F609 /* AFHTTPSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4442D8453D210EFC13CFE2CAF862ED1D /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = DBDCC96021AD90817F7B04DB9D814C55 /* AFHTTPSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		455C3561EE4A831049FB8A04CA79894F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DBA64E0EB18277E5AEF8279793BF5 /* AFURLSessionManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		45F802D04B3BE0CAEC586C2F3016027B /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A8EAEEC7995147B4F6A3AD2ADC5A6068 /* UIActivityIndicatorView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46A45325921A22AAAE2AC187C79799FF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = DEFD2E0AED538F2A9428018365E54F2A /* UIProgressView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		478487BDABB2ECCF1F9C0E966AA05A69 /* ResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1BCC406A98FD94D67C22B436EA326 /* ResultExtensions.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		47F04CBDF6C54B220F6AEECEF15264D5 /* AFAutoPurgingImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A88E0E032D13819DCC125FA0B8C6BE8 /* AFAutoPurgingImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48BB8C74B5781B42A8EC13E410561610 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DAD92154B3142860CCFCF59AAE31CBF /* Event.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49920903597E08304FA01451D8C9E649 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C3F568BE30D567CA41D83AF3AFC02 /* MJFoundation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		49F937417F75D608C627D4B150A53E59 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40489BE198E1ED14ED28A3A263CFCA04 /* Optional.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		4B80B172A9F416F9A4E57A3F3EB97CD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
+		4B9A4EA5159D22BE35680B661962CA43 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4037AB993636F0ED1C2A8A80A3083D6 /* UIScrollView+MJExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4BE912DF74C7ECEC0BF3857150A536CA /* NSObject+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22FF70EBA8CED58DA238154C5A79AD /* NSObject+Lifetime.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4CC7D5524DB3A1C2E3D3BDF98A23AFEE /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC0E6B1EC80C8C80EDEDCF55A750CF /* BabyToy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4CFB07B584458997A37EB9E16BE017C2 /* UnidirectionalBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6852974475F5C0CE8A1A3E31E0B7422 /* UnidirectionalBinding.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4EE3BD6F91C2EEDDE9FA1E2CD4B23F07 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA40D4F6E572E3811EDE1A080044502 /* AFAutoPurgingImageCache.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		504123D92A006CBFA5B547EB677A1B6D /* Result-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 739D6581E9B6F6BA852B086381B1D2E6 /* Result-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50BF3A4604A7493940515D86E7A45CA5 /* NSObject+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EF715942F6547C31CD8BE37BFC7D2 /* NSObject+Association.swift */; };
 		51047C1945103943F70BEADE83725630 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 20C2D1E9F877F9B04338CEB8BCD864BC /* UIWebView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		51E9CA84A50D1CD508BD5F4459C21ADC /* ObjC+RuntimeSubclassing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D30C2221BBE1A0DDDE38439CF2C52D3 /* ObjC+RuntimeSubclassing.swift */; };
-		51F54E5D31E3A6FF812BF34525A27171 /* FoundationExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 866E44791B3489BBC3B4AD9C4C2374F6 /* FoundationExtensions.swift */; };
-		53970DAFDB7DBF55A158CA71EA191CB4 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB16CC38A5102D6F6865B8A2EFD14AD /* UIView.swift */; };
-		55228D44E0DE6ABE42603DA6EEB8B7FA /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56C8EE2C534355DED81A91038413DAD2 /* Deprecations+Removals.swift */; };
-		56732319FB42C6D689693D456D9B786F /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB59FA6284D5FAB92C6AE391D31C7A3 /* UISlider.swift */; };
-		57A3042B509B6278282CEE76C0663B25 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3E46ADB7A845A38505BA2A0D429E33 /* EventLogger.swift */; };
+		5479D7A0A80FEBBAD08E8229384572A3 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292B5114AD926D8229A7CA86EEEF159 /* BabyCallback.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		552598A73013491F8F0894DA5F08E607 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7321AD818CC61CE9FB091E759E95C012 /* MJRefreshComponent.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		556C27E823CDC2DF655A6FAF6D70CF35 /* UIFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C7136A2BE6D3CFCBABBB3D622A7B22E /* UIFeedbackGenerator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		55F2D1F6E604FE977DD64AB7BA26E297 /* EventLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F3E46ADB7A845A38505BA2A0D429E33 /* EventLogger.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		573C74898228FFEC7742FD3BAD6D25E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F076F1D7390DB8971FDD8C4D3D3DF0 /* UIWebView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		58E6E68D10EF3D64522BD267CC1761A6 /* NSBundle+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = 893DED7B92C9B641F12135AD7713FD47 /* NSBundle+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		58EFF22FEFA78894F9F808799F961BD5 /* MJProperty.h in Headers */ = {isa = PBXBuildFile; fileRef = AD4AF0DE4870FE8849940326B241442A /* MJProperty.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5959BA6CA6E3C82D62E2178A91DDB0C6 /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48025925DD5098C402B70F886F3BA4 /* ResultProtocol.swift */; };
-		59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06EB3D4E1AFA0B3B28371FC700C27707 /* MJExtension-dummy.m */; };
-		5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CA325F9216DC9334702A277D11D19 /* AFURLResponseSerialization.m */; };
+		5A3757D57032A476B065E18CB25D40B4 /* MJRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 75D808B4C4AE3C195AC86562FAED8881 /* MJRefreshStateHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5BD2A9D0D752792C18F1E7F6CDBEB0FA /* NSString+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B258101BA6D8771AA8323BFEEBB3A26F /* NSString+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5C7CFCDB8A7BA0B8887C1D127186CAC4 /* Flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE56BFCCB56D4920CE3CC70FE838C89 /* Flatten.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		5E89ED15FDB4CE7F92544DDF4589C242 /* MJPropertyType.h in Headers */ = {isa = PBXBuildFile; fileRef = 64F0DABBE8217D092E800FE4E2BFC48D /* MJPropertyType.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5F65A822DFCA0BFBA3B1D63D8BBD1235 /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B18C3144B2DECDB894CB4C7671948F /* Result.framework */; };
 		5FB24430CF9A4973C6F4A9A44A6FB31A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		621B413DAEFE75991251ED378822527C /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 19F08961D4BBB17487A42F1F553FD393 /* MJRefresh-dummy.m */; };
-		6294D2CBD9FEE1D4BB0AB8B9C099DDBF /* Flatten.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBE56BFCCB56D4920CE3CC70FE838C89 /* Flatten.swift */; };
+		6061023196B0CDA48FDC2424A358D48A /* Signal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 714044F19877A0E9BF6955C624148EA8 /* Signal.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		60E1BD88B7F2CB8B3ED3DABC67DAF73F /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 46BD3EE5D52F1EB5D32F40C9871E08DE /* UIButton+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		6298B1C2234864DA5ED3B5E6398B95AC /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2A0C2E1E94E135EAB0DCB5975FC5A0AE /* MJRefresh.bundle */; };
-		63160BC08DF1705DA3A5B3626DDFF619 /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0711FBE97D3E14938967AB957F9B2E /* BabySpeaker.m */; };
 		64298620A2F1EFAB12386F3861E08D40 /* NSObject+MJCoding.h in Headers */ = {isa = PBXBuildFile; fileRef = 1A708EF7A29EFB48D7B99ACE062E48BA /* NSObject+MJCoding.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B75FF5368BB8F1BF8E137A97030E8 /* AFNetworkActivityIndicatorManager.m */; };
-		6511C781D299F67EC7212FA6FA773385 /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DD4B63D3C1AEFDB8AC5085834A59A /* UICollectionView.swift */; };
 		6573AF9ABA59AC8D1F52B07088197F71 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = F3EE1F5D34CFD9113FE149A9E47A41F8 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		66EE17493F749CACAC8C9B0BDEC8B785 /* ObjCRuntimeAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CE2DF44FD83E42C788E5BE4711287 /* ObjCRuntimeAliases.m */; };
+		65FFFF5E8E569ECD2F9E1F46330E632A /* ReactiveSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1812A7633BF5CC3E277E00DED4F7D38 /* ReactiveSwift-dummy.m */; };
 		67E28FD2210775F0BF13E789B0475C89 /* Pods-BlueToothDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E8A99A48FC08D293DFD5494AE15899F6 /* Pods-BlueToothDemo-dummy.m */; };
-		680E88AA7A6CFF1205700BEC0AC84FEF /* UIImpact​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 630E60A1462834A4356ADB1FCA147A9B /* UIImpact​Feedback​Generator.swift */; };
-		68341C32925DB2E37113D03F4DBAC014 /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97B7DCB1E468B972DC662DFBADB84E /* UIKeyboard.swift */; };
-		69B6E98A4FF5BF7F2C48B8EEB6BDEDBF /* UIControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA21BCA69B6E8F60E235B50481B544B /* UIControl.swift */; };
 		6A0B1A0FA7A75C861B9D401D0E8CC95E /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CD020282A049A2A0E1B997645E69840 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6BFA94BB6858DC2473A4AEEFABE85149 /* ReactiveSwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E1812A7633BF5CC3E277E00DED4F7D38 /* ReactiveSwift-dummy.m */; };
-		6C0B1A90F0DD4B92389EEE0BF3C3BBAD /* UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541508B78EBFA292D579076C50355CE /* UIBarItem.swift */; };
 		6DA14D61DB56E00FF18F2F75C51454AE /* MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F534F19C041291EC9F090DA23F1F986 /* MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E96B7600C89CB40307526EB6B7E841E /* UIKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A97B7DCB1E468B972DC662DFBADB84E /* UIKeyboard.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6F6EAA739715B2BAC0F339FF68B2484C /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80189C0435F59F3E38FA94E87211E2 /* Result.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		71F6D96E3AEAA07389F37E2C4B63C4F6 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 10AC371D5122A410AC042D2FF958C75A /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		729640053E5EFF75167E9DDEE76C625E /* UINotification​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2445A9D4A33510160F6FBE8AB6AA37 /* UINotification​Feedback​Generator.swift */; };
-		7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB6820119A9AE99C9907BF4B3C0910 /* NSObject+MJClass.m */; };
+		74FDCA8C3A4DA9BC694AC038F2CFDAAC /* ResultProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E48025925DD5098C402B70F886F3BA4 /* ResultProtocol.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		789D749690B308852115FF20CD982A69 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9D048805DEBF7F47F254EAFB0B6A40B /* CoreGraphics.framework */; };
+		78B9D556428339A8888A507371FD944D /* UIBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = A541508B78EBFA292D579076C50355CE /* UIBarItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		78E8F7994020912AE3B56D8D001BD480 /* NSObject+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE114E6C1393A373A2EF07BCB192B848 /* NSObject+Synchronizing.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7942D242D079A5710A72B659A54D7E26 /* MJRefreshNormalHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6795200FF2A9A85F14B6A073943370 /* MJRefreshNormalHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7A112C0F21A62CB6F1AA8D917A6EEA6C /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 788BB626B08EF70F959D839CB1E55C68 /* AFNetworkActivityIndicatorManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7BED966121B521BD1F312C46782A7D7D /* ReactiveSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F568C19354AEDD967105CBCAFD03D5E8 /* ReactiveSwift.framework */; };
-		7C20B110135E64832C3DCDA317786D19 /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEADE5EAD28B6098F8CCFF517C6F8B5 /* BabyPeripheralManager.m */; };
+		7C4BCA91BFA8FAA4F85A93967B87BEC9 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EB95AFDB5BCBA213AA5459EEAAB5A /* Action.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		7CA108D7D2160B23D52C1E1A7173EDE9 /* BabySpeaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 113818AF174893817E1494152D6F70FA /* BabySpeaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A6F076F1D7390DB8971FDD8C4D3D3DF0 /* UIWebView+AFNetworking.m */; };
-		7DBDF203A649260227A313C8AD9722A4 /* SignalProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC4D1DD4D204F10E306D2D525D95AA /* SignalProducer.swift */; };
-		7EFDAA1642FA83DE777CFD086182D5A4 /* MJRefreshAutoGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = C6CCAC58FD85A220364D970A3B156C09 /* MJRefreshAutoGifFooter.m */; };
-		8069223DDD6D0F2E1A87D8E66966709B /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DED146793F8109368C068467A30D558F /* MJRefreshConst.m */; };
-		821764AABD1BD1191906FCC3FE37BB47 /* UIScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D01FB5F3F1B8EB8083E8D0B07502A2B9 /* UIScrollView.swift */; };
+		7D0AED2B16598B3B715E4457DD55DA3D /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A324050AB36041E23754CDDAB4732F /* BabyOptions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E58CFF81C05DB4FDD3DE7ED13853FF4 /* ObjC+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 21674AF5EDB27D7F9D129C64E1220645 /* ObjC+Constants.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7E93456E2D7901FA751C86FB611684EE /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E825F1F4DCE2C116C294676F6797BD8 /* UIRefreshControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7EF1A629F5F13A19EDE43FE6FFFA8898 /* CocoaTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFEF4E3E81B2FF5A2225DBC92980A25 /* CocoaTarget.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8089F6CAF2EEEF5D6E1411533AB9D8DB /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 98565D464494631523915684B62C4A25 /* MJRefreshAutoFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		80D5EAEAED7E22CA58A8F1AFB3019061 /* UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F044B181A8A20EBF84FDE93379426A /* UIProgressView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		82D554EC9FB9A62D935B6555325F5898 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 205989AA09CB42E4EC6BCED5CD917384 /* Security.framework */; };
 		840FF5C07B4080A401C65586B980E3FF /* Pods-BlueToothDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6C8324710BE9721FAA45DB1FF6E72F61 /* Pods-BlueToothDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8718568C64CCDC8F6BDFACC6674D7F12 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B80189C0435F59F3E38FA94E87211E2 /* Result.swift */; };
+		85A17793EA5D2ADEF49EFD9C9FF27CD2 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1D16DEE96FFF1AA3323EC33E7D20C7 /* UIScrollView+MJRefresh.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		86FC38D3435FB633A51F55645A2C85D8 /* UIStepper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46B429B891128CD956694A6FA5B6ECFF /* UIStepper.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		872C0555B1F955CBA78F63592225AD5B /* BabyBluetooth.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F15E819F89747B137843EA060A3A64F /* BabyBluetooth.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		895D9D2675D8D5FB59E26EE3C17AA8C5 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25ADBD36CA27B0464A1A72583611FC /* UIPickerView.swift */; };
-		8B855A73B75155FB2C0CB05B54FDDE0D /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1D16DEE96FFF1AA3323EC33E7D20C7 /* UIScrollView+MJRefresh.m */; };
-		8BDD9FDD4F9A82720ED560BA2FCF0476 /* BabyCallback.m in Sources */ = {isa = PBXBuildFile; fileRef = 5292B5114AD926D8229A7CA86EEEF159 /* BabyCallback.m */; };
 		8C5FD136F282A48C4F5E4AC260F3F664 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		8DC3FC2342EC2E944B3A3E83E2683130 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FC7A5CFF42C3981B747195D508C604 /* MJRefreshHeader.m */; };
-		8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C8B7521AACF08ED2E2977B74E5506 /* NSObject+MJCoding.m */; };
+		8E5944DFC7D64B7B3558C0DB44A5655A /* ObjC+Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F2673F3533E88D0B65A67C2C91FE /* ObjC+Runtime.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		909862F016F2450A8131FDB4B8ED365E /* NSObject+MJClass.m in Sources */ = {isa = PBXBuildFile; fileRef = B5CB6820119A9AE99C9907BF4B3C0910 /* NSObject+MJClass.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		91CA46BC736A5ED8F6B8B274227D6A4A /* ReusableComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A320A9A04D6664D4006795407A92542 /* ReusableComponents.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		92052E4BAA96409F6A341A912716CF0D /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C1BCA266C2945CB4A057D2413CF1D82 /* UIView+MJExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9264BD69AFA8EE74F0D7F0EBD74F762F /* UIImage+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9970AFEE64F75266F1501697DC382C07 /* UIImage+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		939F3FAAF8FF5FFD1678D2EE098262D2 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3423E069685EBA39B980EB1BDEFB3 /* BabyRhythm.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		93DFC0CC12E763AE770017349EE009D1 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 250397DA2287B049F99C8539FB5D4ABB /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		948458DC0A9308A2D8C018C37FB7BBDD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = D353A660CFB3883C79E2EA176C84084F /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95134844F3C263B271ADAF7E7AA8C915 /* BabyBluetooth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF018319EC06789F6CB35F30830DBCF /* BabyBluetooth-dummy.m */; };
 		958665977F2F738FFE8424AB79944E46 /* BabyDefine.h in Headers */ = {isa = PBXBuildFile; fileRef = 26A4D50F1C3FF641F94C12AC928482CC /* BabyDefine.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9696BEF7470EE50446871CFABA63DC40 /* BabyToy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15BC0E6B1EC80C8C80EDEDCF55A750CF /* BabyToy.m */; };
-		9B168DE831DA427213D52489A815420E /* UIActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A09E91A9ED6A51278D8EB28813A67D20 /* UIActivityIndicatorView.swift */; };
-		9B718559C6658DEDACC34A0E22437E4D /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A60D16713610846DFC758378C5E0F /* Property.swift */; };
+		95FC0FEF5ADF047CB051976738B67239 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7CA325F9216DC9334702A277D11D19 /* AFURLResponseSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		96AD8CD4C55651DD3AB72F2A89439859 /* ReactiveSwift+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23210376832E1957F4856478E6C44F95 /* ReactiveSwift+Lifetime.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		991D449EE5FE820843AFB4E701AF69BE /* MJPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = BF51F8B7DA5A8AD8D6D5991BE794B2F4 /* MJPropertyType.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		99C5DD649642BCC0CEC7DF528C9C7746 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A314BE0543FB85B5C0D9C141D651EA3F /* UIImageView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		9D72B16D2F6301D319C5E51C44E51612 /* Pods-BlueToothDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FF883EC6ED8F75657E31B8DD24DC0D39 /* Pods-BlueToothDemoUITests-dummy.m */; };
+		9E756A24C7923F180640003653F9C0DF /* NSObject+Association.swift in Sources */ = {isa = PBXBuildFile; fileRef = 369EF715942F6547C31CD8BE37BFC7D2 /* NSObject+Association.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A00FFF8537CA374A2C44552FEAAB80A4 /* BabyRhythm.h in Headers */ = {isa = PBXBuildFile; fileRef = 0D7917E250742E7A7A38B490AC062776 /* BabyRhythm.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A10B36D4A57FD7255B95788B703D6D90 /* ValidatingProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC95ADBE095525CC82D2C8A334C44F39 /* ValidatingProperty.swift */; };
-		A172DD507D6443EC0A58ABC4ADBDFDB4 /* Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CA1042C3EEA77198E9C49BE678E35 /* Lifetime.swift */; };
+		A04145DE93F93E072DAD767FBD7AF0B2 /* InhabitableTypeGuards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C97B4E76CA425EC91B3910EBA7FF5 /* InhabitableTypeGuards.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A18D1303B244946C1E74A1228D86A84C /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8AD204BE0352EF6F370A9A2CFE5C /* UILabel.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A2D9F9EFFDFE9C19DA842E826B06BCEB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA40D4F6E572E3811EDE1A080044502 /* AFAutoPurgingImageCache.m */; };
-		A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 092927A7263B8CF75E8CD7471151FE5E /* AFImageDownloader.m */; };
-		A42BAF82E9844B2E032A9A95FC48586C /* UIRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E825F1F4DCE2C116C294676F6797BD8 /* UIRefreshControl.swift */; };
+		A448AD2E7B7F771F9B4302511437E535 /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C5D7E207B6B159B7D9E19342F0AC2 /* AFNetworking-dummy.m */; };
 		A5382D3EA98D2EB1AD9EDA5F2138F00D /* MJRefreshAutoNormalFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BB4DDEA8E468CF98234C14F1F3DA104 /* MJRefreshAutoNormalFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A5CA526281C250EBBDB4794B57C649CF /* CocoaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE39DD308615D39D7AD0FB944705CC8 /* CocoaAction.swift */; };
+		A5B4A382BE58D0FAB9D502EA925E335E /* BabyCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EAA7E3727CCFBC9C778005650E396429 /* BabyCentralManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		A5FD97565CF562048EFD731E80B53BEC /* BabyPeripheralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DDEADE5EAD28B6098F8CCFF517C6F8B5 /* BabyPeripheralManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A61CBA1B7EC469C602F47186539239E0 /* MJPropertyKey.h in Headers */ = {isa = PBXBuildFile; fileRef = F178C005C39442A92490B93892B776DA /* MJPropertyKey.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A666A55CAD6391050C90B8819522007F /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492932B0657F89DB396B790BD61F36E /* UITextField.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		A71D42CF2B3018DD634D79F3E331F613 /* ReactiveSwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5241126B61A2301E1FF4790D36E83528 /* ReactiveSwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A72D242BEF61E27D6C29092DF4666A4A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = F50FE78E2871D781A1E366373455D842 /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7BAF6B1D66ABCA145630D43E8CB6B36 /* BabyOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A324050AB36041E23754CDDAB4732F /* BabyOptions.m */; };
 		A8A63379357A78050E8FFA0E3DB2CEC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
 		A8C297643282E0CF5E7DF9CB6E23A0D4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
 		A90BF51882A5DB51C3E79F6AD4D59D13 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
+		A9691D42BB8FF059C0742A5D612889C0 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 41AC859FFB28B4CDF79AD3AB857001EB /* NSString+MJExtension.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AA4959949A290D4B8BE1E31A890D0C80 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 79F0720F0A0DD34B01FCBAD425ED5E25 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		AC25AB4195165833B6667F3DC361ED4C /* NSObject+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C5120E0349AAEB6ED9BE89736A48 /* NSObject+BindingTarget.swift */; };
-		ADA80EB1D4085D35EB5EAFFEDBA5053C /* NSObject+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22FF70EBA8CED58DA238154C5A79AD /* NSObject+Lifetime.swift */; };
+		AAEB93ADD9512F1A31D90BA1FB5B4E42 /* Reactive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDF6A257F08A29413381B2EAABA417 /* Reactive.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		AB6E70659F280788E2E7BCA7B29FD8DC /* MJRefreshBackStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = D913DE23A53A41ABCAF8C068611AD8E4 /* MJRefreshBackStateFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ABFFE148EC22103B38EF2D964CADEC17 /* MJRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 96FDCF76B5943625115AFE1C6088A7AB /* MJRefreshAutoNormalFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		AE976B0E8E3DD81E4F49DBEF19D3C0AD /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 23989B6E669E3BED0DBEFBC1554851B9 /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B0219ECAFF7660231DADF624B72BEB03 /* ReusableComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A320A9A04D6664D4006795407A92542 /* ReusableComponents.swift */; };
 		B02D91E02099D3C6A2F988C766032176 /* MJRefreshBackFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = D92D3F042772AA3D8430DD06305C7506 /* MJRefreshBackFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 263EB2BF02D25DB7DFFDA8148E0B804A /* UIRefreshControl+AFNetworking.m */; };
-		B4D6505B4698894E3F2857974B463B40 /* DelegateProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59B9EDE4B7A7302BDE7378C2174C8AC /* DelegateProxy.swift */; };
+		B162A05AE7918B8BF6C533D25AD25B46 /* MJRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EEBBAE053239FE020363C31B212442F /* MJRefreshAutoStateFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B237EE4D6F7A35CCF0D9D7D7C0928C73 /* NSObject+MJKeyValue.m in Sources */ = {isa = PBXBuildFile; fileRef = DA317FEA07126CEE062F752A9EAA1D0E /* NSObject+MJKeyValue.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B5370C4E3B4B547DED47A68001B3731A /* UISelection​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 974E265E155CB726C41E45EADDD8F0D7 /* UISelection​Feedback​Generator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B712B74F1FD49EFCC30191FF52621166 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CDA072AFD3456D29CACA02A22D2A95 /* NSLayoutConstraint.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		B7B68FDABB146B87FA3C9E987D2014DE /* NSObject+MJKeyValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 3CE4F47B8142EB4D06903BDE43698AED /* NSObject+MJKeyValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B82E5F92C6C2C65F88EB02617FB7F66C /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9643657C3882EF4C54510085F304145 /* AFSecurityPolicy.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B8332F8B755B7DE743DD45213E5C5E55 /* DynamicProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDBF04A20DB01A69B6B0B0A4FF8BF1 /* DynamicProperty.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B97D1E8033730FA1116731F26F8045EC /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB16CC38A5102D6F6865B8A2EFD14AD /* UIView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BA0711638621C2A47AABFF9E03546893 /* MJRefreshAutoStateFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1DD8AC4160D52FA350A7FB19572BF417 /* MJRefreshAutoStateFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BC9F86BF5E562916077590AF3F3354D2 /* MKMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDA43A1CAEA312377A36AC8F36020B0 /* MKMapView.swift */; };
-		BCAC5A3E9FCDC0243A299E0D5EFB9874 /* ReactiveSwift+Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23210376832E1957F4856478E6C44F95 /* ReactiveSwift+Lifetime.swift */; };
 		BDB33C3708110C6D755175D1F0A2A70B /* MJRefreshStateHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 88249421E0DE3479DC16DA65C21407BB /* MJRefreshStateHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BDEAE21D2A6506B6F0AE64A82CBB5A99 /* Pods-BlueToothDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D95200F7E5B1116D16F357A6A448E4F /* Pods-BlueToothDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BDEF47C3DAA16723AA8B7E21F83504A3 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146F37DAEA3BDF6C3D2B3537292D12A /* UISegmentedControl.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		BE9E49FC52285E888815A139CA799BC4 /* BabyOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 74673AC5413BAB1B89BDEA4CC15FF5F1 /* BabyOptions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C2A9B8BC820F2322AD6B4FFE9D0F491B /* UIProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01F044B181A8A20EBF84FDE93379426A /* UIProgressView.swift */; };
-		C39E6F419ACABA140172E4DBA9398A93 /* NSObject+Synchronizing.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE114E6C1393A373A2EF07BCB192B848 /* NSObject+Synchronizing.swift */; };
-		C658FC3F3030B2886EC992C174D265EC /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5DF634CE51791C637949AF9589FA96 /* Deprecations+Removals.swift */; };
-		CBA4F9525FDF0808B651C9E822D8FC41 /* UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492932B0657F89DB396B790BD61F36E /* UITextField.swift */; };
-		CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C577538F0DC0946DBAF4EF9A5DCB7 /* MJExtensionConst.m */; };
-		CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9643657C3882EF4C54510085F304145 /* AFSecurityPolicy.m */; };
-		CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 938C5D7E207B6B159B7D9E19342F0AC2 /* AFNetworking-dummy.m */; };
+		C45C4FA7B3AB7D1D1D6C203097E6B517 /* NSObject+BindingTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F89C5120E0349AAEB6ED9BE89736A48 /* NSObject+BindingTarget.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C62CEBDFFE085D648853CC4DCF866DE7 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 263EB2BF02D25DB7DFFDA8148E0B804A /* UIRefreshControl+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C6F4AFEE4A3868BE0CC846E4F2470D16 /* NSObject+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC80BCE0398A8610F9262C7FBEF95CDF /* NSObject+ReactiveExtensionsProvider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		CE15ED34E516492B692295B8152D14F0 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A6B75FF5368BB8F1BF8E137A97030E8 /* AFNetworkActivityIndicatorManager.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D02DEBC241C24DEEFDA13C355197A2FB /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F9AAA3E3922A6BA461662872FBEDE7F /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D0E730FD143E9BEE6931CC36E4F64EB0 /* DynamicProperty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFDBF04A20DB01A69B6B0B0A4FF8BF1 /* DynamicProperty.swift */; };
+		D0652E50E98F985CE1EEA18C9B037FFE /* BabySpeaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BC0711FBE97D3E14938967AB957F9B2E /* BabySpeaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D067A0598D9D9B2D4FA7EB044621C656 /* NSObject+MJCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = E83C8B7521AACF08ED2E2977B74E5506 /* NSObject+MJCoding.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D0E7D5B865722A25EC7D91B0FAD8A6CD /* MJRefreshAutoGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 21D2E2A532B7F5C537A2885225CC627A /* MJRefreshAutoGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D44CC32135A23946AD53BA6DDD404D05 /* UISearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2432C2E2351BBEC74BA3C4F84C469BE8 /* UISearchBar.swift */; };
-		D46545D206874E3A223372C84F1EA73E /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 98565D464494631523915684B62C4A25 /* MJRefreshAutoFooter.m */; };
-		D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B1DBA64E0EB18277E5AEF8279793BF5 /* AFURLSessionManager.m */; };
-		D5A5A2A0DD1C1D49814C17B2635C3AC6 /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14266221D36E9DC4D68278BD096591 /* UISwitch.swift */; };
+		D2E8A7B89A550FA22DEE1319ADB83A4E /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = DED146793F8109368C068467A30D558F /* MJRefreshConst.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D44FEB0DD4B64FAC0311BBD3CFCCB6F5 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B62E20DDF49A17B3E851215C6A278D16 /* BabyDefine.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D51FD04C311F58C64E8528D13BF6E2FE /* UISwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD14266221D36E9DC4D68278BD096591 /* UISwitch.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D63C3073A305F9F9D937C6D1AEED16DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D53E07BDB09F6D5289EB08105BECDB2 /* Foundation.framework */; };
-		D66E78D63935A98894E702D922AA8B91 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE84E50BDEEF37807B307EC81E24F4 /* MJRefreshBackGifFooter.m */; };
+		D65F8FF20290E4401F645C45E019342A /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707F307544B748D4958AFFC44896A12 /* UITableView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		D820DE54D6E9E5C85E0F9BF8A399E5EF /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33807EABF05E93F481762EBAB102FE5B /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9F2BA4D713DAC2A85CB4A453240EA3E /* MJRefreshAutoFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = FAC0F78D7A80C7652D75F26A9F61C337 /* MJRefreshAutoFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA24245BF4349825F8230722D02ED671 /* NSLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93CDA072AFD3456D29CACA02A22D2A95 /* NSLayoutConstraint.swift */; };
-		DB36B7D2900C4816EB79F2574F432F21 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ACF8AD204BE0352EF6F370A9A2CFE5C /* UILabel.swift */; };
-		DB584C6C11BDF0E77911085BA6C2DE0F /* Scheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAA78EDF35CEB877C4A9C842ED1438F4 /* Scheduler.swift */; };
-		DC01A8D24834F5A37E762A3F987C1FEC /* ObjC+Selector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 103C462E7956DE8441E743FA6E7139F8 /* ObjC+Selector.swift */; };
-		DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = DB94A88F4CFB58FB15F5D426D3FD2059 /* AFNetworkReachabilityManager.m */; };
+		DA363192309644D14A51CDAC5244F307 /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3D90D55A1CA0DA4E9C2EE78EF099AC6 /* UITextView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DADAEC62679172CFC3D95E5B36BD7D5D /* UISlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB59FA6284D5FAB92C6AE391D31C7A3 /* UISlider.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD44099687C9420E03A596D59258C2C1 /* UIPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E25ADBD36CA27B0464A1A72583611FC /* UIPickerView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD66F95B52A84F01E4F5BB3189BF496A /* UIDatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39344D9DCA1F92BEA4E773EA913F0A11 /* UIDatePicker.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		DD75F168646C6BE01BFED4DCEC98E2CA /* NSObject+KeyValueObserving.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4249DB29BC4AA902D304E32D113F397D /* NSObject+KeyValueObserving.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		DE17E4C2C6EADE5D2D531268B1695405 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 87F9B0CCBE358B21E3F6D7CE5D5E5DAD /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DEFFC318C4823AD645F9F0CE926D9E3F /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3252DA5D86DDE86EABC9344AC262B7 /* Observer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E05EA874454B3EB196405F574EEA6DD0 /* Lifetime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006CA1042C3EEA77198E9C49BE678E35 /* Lifetime.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E23B9A6F533461CB33C0FA6FB59E3AB2 /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D66F5066E4C1D74A0B2FF41177B400E1 /* UIKit+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E47212209EF96D93DB8D3CDCCAD2B585 /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = 146EB95AFDB5BCBA213AA5459EEAAB5A /* Action.swift */; };
-		E57312010AFB591EE37870F65E651EA6 /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299F0ACF5BFE288C6AE5805F0EDAE9E /* MJRefreshNormalHeader.m */; };
+		E3623BE0401E9570E8A40F3A27B5064B /* Result-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ADFC1B93A2AB690486A07AB0323A4BC9 /* Result-dummy.m */; };
+		E42C3A174CA5CCB2B27CB1FAE98D79B6 /* MJPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = EF52C1AD41792DAAB01259433E197C24 /* MJPropertyKey.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E49C9EE0BC44DE79D2A9E342706E5196 /* Property.swift in Sources */ = {isa = PBXBuildFile; fileRef = 913A60D16713610846DFC758378C5E0F /* Property.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E524D6FE1036EE7492422F895E7DB1FB /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = FD09C69A0C3AF91589ED35DE505DA43B /* UIActivityIndicatorView+AFNetworking.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		E5FCA2ABBE2C5EF75F004103BC26D472 /* MJFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B543B5205BF42D9814A024036298C48 /* MJFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E66682644C9C8FE19D1754FDD17E4A23 /* Disposable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83A7F223DE077EEE7BB010EE027E53E5 /* Disposable.swift */; };
-		E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 729687962CB16C894AE24DA06A2C0571 /* MJProperty.m */; };
-		E7DD6DD4CA8187D5D9B2717B434A97D7 /* UISegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = C146F37DAEA3BDF6C3D2B3537292D12A /* UISegmentedControl.swift */; };
-		E80DB5D9B2D35085282DF057BB540AFE /* MJRefreshBackFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6031283F70AC7FB5FD53FF36C0128831 /* MJRefreshBackFooter.m */; };
-		E8E2AF0637F5C941AB6DA639CB509760 /* UITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0707F307544B748D4958AFFC44896A12 /* UITableView.swift */; };
-		E9EF190DAEB3B6BAED3964EC6156C7D3 /* NSObject+Intercepting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292957DE7984706597223C463037422A /* NSObject+Intercepting.swift */; };
-		EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 844A53A5A81BE924C2D43C9B72C8F609 /* AFHTTPSessionManager.m */; };
+		E6772CA82AB574036B21E3AC16DB6B9C /* UIBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8BE667ACF4FBEF23C138E7AFD216B9 /* UIBarButtonItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E6F8A7DD28E55E6980F639238E27F8DF /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6F74C37045C6DA0C283B6E1AD1D2E /* UITabBarItem.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E96DAB7057DDB91D1C7E3F907050A30B /* MJRefreshNormalHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 0299F0ACF5BFE288C6AE5805F0EDAE9E /* MJRefreshNormalHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E98E1F19FF94E96F4317B0D36ACCA3F1 /* Deprecations+Removals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E5DF634CE51791C637949AF9589FA96 /* Deprecations+Removals.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EB58CF56894C5F5DD2491A032533B89F /* Result.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52B18C3144B2DECDB894CB4C7671948F /* Result.framework */; };
-		EB93B3ED8B09C1C45DF716D3DEF56F5B /* ResultExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A1BCC406A98FD94D67C22B436EA326 /* ResultExtensions.swift */; };
+		EBDFEA34F4003D75220715399B6C3279 /* MJRefreshBackGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DDE84E50BDEEF37807B307EC81E24F4 /* MJRefreshBackGifFooter.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		EBEB72F80DCD10DEB82BF5F856D467FD /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2AC3CBC985A57B7A947756FF44AD31 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ECEBDD4C3D02A2C75821D42B05BB1B45 /* SignalProducer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38AC4D1DD4D204F10E306D2D525D95AA /* SignalProducer.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		ED020388839A8B859B8DCFE6358D13C8 /* CocoaAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BE39DD308615D39D7AD0FB944705CC8 /* CocoaAction.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE07D81D602E90F7951B974E26F487E2 /* ObjCRuntimeAliases.m in Sources */ = {isa = PBXBuildFile; fileRef = 209CE2DF44FD83E42C788E5BE4711287 /* ObjCRuntimeAliases.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		EE3E4EA44FA96A5930FCEF7044D3AB5E /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CDBF47CD092F8529222BA419F9B90D3 /* AFURLRequestSerialization.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F01A5BC2DBBAED803D5942D9CFFADA69 /* UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6C6129B5813CC6F2F369255E698F2CF /* UIButton.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F0F9049072174F115DA6FF1EE989615F /* ReactiveCocoa.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C9B558E7F8E7BA66D7B4D55B31EC197 /* ReactiveCocoa.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0FE992CBC44FC8FDC5223769EAC24F4 /* Bag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125CFD0B24CB765857C92CD4324A6FCF /* Bag.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F11B31B90EEBB584A377317B648B2EB7 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 37FC7A5CFF42C3981B747195D508C604 /* MJRefreshHeader.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F17063813215C9EFF4FB9583BF8FAE6E /* BabyToy.h in Headers */ = {isa = PBXBuildFile; fileRef = D2AFDECC59A043CDCFE0B772821D0778 /* BabyToy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F1CAA2EBDDFF558DEF98684F2479A7AF /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = DF659D5B6CA413FC4CA6D6FC480A90E9 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = B1C69ECC8BBAACF007599959CEE60B99 /* UIImageView+AFNetworking.m */; };
-		F4A57F7C1F8184A6DDEABB07FA6D7083 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC2C13F0EB08C40DBBACBBBE1688EB /* NSBundle+MJRefresh.m */; };
-		F4AC17F3F74A8B9BD56DD0C289668654 /* NSObject+ReactiveExtensionsProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC80BCE0398A8610F9262C7FBEF95CDF /* NSObject+ReactiveExtensionsProvider.swift */; };
-		F4DA49CEC3003E287EB7CE59F6C25F46 /* BabyRhythm.m in Sources */ = {isa = PBXBuildFile; fileRef = D5A3423E069685EBA39B980EB1BDEFB3 /* BabyRhythm.m */; };
-		F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = BA1C3F568BE30D567CA41D83AF3AFC02 /* MJFoundation.m */; };
-		F68EA720B0ED1BF96CEBF07977A1C0A2 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7321AD818CC61CE9FB091E759E95C012 /* MJRefreshComponent.m */; };
+		F437C1606A64B938C748611EE2682320 /* NSBundle+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 60CC2C13F0EB08C40DBBACBBBE1688EB /* NSBundle+MJRefresh.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F5213629727617696FDA68EBEC7E43BD /* UINotification​Feedback​Generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C2445A9D4A33510160F6FBE8AB6AA37 /* UINotification​Feedback​Generator.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		F75E2AE2D12480AE889D1D3B7A654FAA /* MJExtension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 748D4684B1D751A10F6211D69031BF83 /* MJExtension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F79B6C5EAEEA24722B8275677D8E70CA /* UITabBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30D6F74C37045C6DA0C283B6E1AD1D2E /* UITabBarItem.swift */; };
 		F84DD74BB7F612DE372F8C051420DF72 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 079C9F108D95F2006701F73DE4F04105 /* UIProgressView+AFNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8B679DAB27E2FF25CD88EC6EB9533F0 /* BabyDefine.m in Sources */ = {isa = PBXBuildFile; fileRef = B62E20DDF49A17B3E851215C6A278D16 /* BabyDefine.m */; };
-		FB9C6242B11049E2F1062D04565E568D /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = F4037AB993636F0ED1C2A8A80A3083D6 /* UIScrollView+MJExtension.m */; };
+		FA3777A2250D402211DFC5D6A4212D8C /* UICollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881DD4B63D3C1AEFDB8AC5085834A59A /* UICollectionView.swift */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FC8B4C5AB785C44201AA96E6BD3079E6 /* MJExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9C577538F0DC0946DBAF4EF9A5DCB7 /* MJExtensionConst.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
 		FD22ED061A355482BD7859C2DF1550F0 /* ObjCRuntimeAliases.h in Headers */ = {isa = PBXBuildFile; fileRef = E34941C279A7D5A10D0C60CD9962EBD7 /* ObjCRuntimeAliases.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		FD31283E2A43955C5BA6FA9008EE8D7C /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E72DFFAB835640E4ACC6C9314990B5C4 /* MJRefreshGifHeader.m */; };
-		FD83F2F2F9ECD54CB436A462A27B6262 /* ObjC+Runtime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E0F2673F3533E88D0B65A67C2C91FE /* ObjC+Runtime.swift */; };
-		FD88BDCDFB9CC30E84DFAF25F9927FC0 /* InhabitableTypeGuards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 032C97B4E76CA425EC91B3910EBA7FF5 /* InhabitableTypeGuards.swift */; };
 		FEF6EACE962EAE70E2EAC5F3C83EF7C8 /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = D9470FCA2ACD86ED4007AA5CC5865C16 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF6026DCB4C3A925C95BC5EA038523A7 /* BabyBluetooth-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC31CB943111D68A715C234B395C1F17 /* BabyBluetooth-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -1356,7 +1356,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C72419A79A3098E419C6E5703FE37C6F /* Build configuration list for PBXNativeTarget "ReactiveSwift" */;
 			buildPhases = (
-				E69B89355ABD5A0F5B5A4DEFB1E449BB /* Sources */,
+				7331E6B3565E389877615C6A86C93326 /* Sources */,
 				A921FB52E58263E37A5CC6F2952FF3E7 /* Frameworks */,
 				1A55FBC04C16A121F18C5A562B5C1059 /* Headers */,
 			);
@@ -1374,7 +1374,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06564E4F5A40A02610AFA51432CB9187 /* Build configuration list for PBXNativeTarget "MJExtension" */;
 			buildPhases = (
-				4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */,
+				29797772B791263D84611FEE2E08ECB1 /* Sources */,
 				01F5D8AA0DC41A81CA94CB320713D684 /* Frameworks */,
 				EBC8EBF9CF85747F8988979882C90A62 /* Headers */,
 			);
@@ -1425,7 +1425,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84E9076DB5713A6AAC6BD12D587A427A /* Build configuration list for PBXNativeTarget "Result" */;
 			buildPhases = (
-				D8C87782B62CA6E1AF6384E008AAA7D2 /* Sources */,
+				E79EACF7D464AAE214D8D066557334C2 /* Sources */,
 				44C256AF066C4F2BBCE0180050A08CCE /* Frameworks */,
 				BEFF5A8DCA2863540106532C143C3BC6 /* Headers */,
 			);
@@ -1442,7 +1442,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 31E01BC98C827BD8A78F94173CDCC418 /* Build configuration list for PBXNativeTarget "AFNetworking" */;
 			buildPhases = (
-				6A10001116C48A3F5FDB7E1BC749EECD /* Sources */,
+				D94317574E08CB4759CAA070BC3737EE /* Sources */,
 				57F44911563C03EE01D7E49B4C1F0D0A /* Frameworks */,
 				BF51EB9C179540355326BC18C9FAF5E5 /* Headers */,
 			);
@@ -1483,7 +1483,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1EFADDC2BB6831ED43B76E0241CCDB75 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
 			buildPhases = (
-				6D4ECE0A60E69F261AA10FE2CB90A0AC /* Sources */,
+				B4B988401A7284146496F49F068D8115 /* Sources */,
 				1AAD91176E5F5F9AD062AD678F6746E4 /* Frameworks */,
 				1D0B0A5525CB3F57F2D64B587D880D88 /* Headers */,
 				8E06EE42A2928B5842D11E8A0A68E87D /* Resources */,
@@ -1501,7 +1501,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8165C860ABA673867F813372969174B9 /* Build configuration list for PBXNativeTarget "BabyBluetooth" */;
 			buildPhases = (
-				3708EDAD2C7A1276ABB839D39C0601D0 /* Sources */,
+				B83075BB3BC0577FA6682E61B16992ED /* Sources */,
 				3D83B9C8F236820856D690F3B39E0EA4 /* Frameworks */,
 				CDE8BBA8BFC025C93BED6CF0B8CAAC4C /* Headers */,
 			);
@@ -1518,7 +1518,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 06F66A6002780E44618924B01CAAA266 /* Build configuration list for PBXNativeTarget "ReactiveCocoa" */;
 			buildPhases = (
-				C8A42F9334D7DF52FEB9417CB1142581 /* Sources */,
+				4C8D2F8115F217336AE8411DB775A51C /* Sources */,
 				A8B80139B21FAAE12628F2B71301BA7B /* Frameworks */,
 				E1B6B99A82134DFC59F8D971DD0138D5 /* Headers */,
 			);
@@ -1588,88 +1588,111 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3708EDAD2C7A1276ABB839D39C0601D0 /* Sources */ = {
+		29797772B791263D84611FEE2E08ECB1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95134844F3C263B271ADAF7E7AA8C915 /* BabyBluetooth-dummy.m in Sources */,
-				3F2F90163AFF2E83A8D97FCF72903360 /* BabyBluetooth.m in Sources */,
-				8BDD9FDD4F9A82720ED560BA2FCF0476 /* BabyCallback.m in Sources */,
-				0F73F1F81CAAE1BD66A2630E9722CBEF /* BabyCentralManager.m in Sources */,
-				F8B679DAB27E2FF25CD88EC6EB9533F0 /* BabyDefine.m in Sources */,
-				A7BAF6B1D66ABCA145630D43E8CB6B36 /* BabyOptions.m in Sources */,
-				7C20B110135E64832C3DCDA317786D19 /* BabyPeripheralManager.m in Sources */,
-				F4DA49CEC3003E287EB7CE59F6C25F46 /* BabyRhythm.m in Sources */,
-				63160BC08DF1705DA3A5B3626DDFF619 /* BabySpeaker.m in Sources */,
-				9696BEF7470EE50446871CFABA63DC40 /* BabyToy.m in Sources */,
+				36ABE804375596F34EA966A49CFB5DFE /* MJExtension-dummy.m in Sources */,
+				FC8B4C5AB785C44201AA96E6BD3079E6 /* MJExtensionConst.m in Sources */,
+				49920903597E08304FA01451D8C9E649 /* MJFoundation.m in Sources */,
+				2BDB7895DECFCD42106CA74C1FFF6C10 /* MJProperty.m in Sources */,
+				E42C3A174CA5CCB2B27CB1FAE98D79B6 /* MJPropertyKey.m in Sources */,
+				991D449EE5FE820843AFB4E701AF69BE /* MJPropertyType.m in Sources */,
+				909862F016F2450A8131FDB4B8ED365E /* NSObject+MJClass.m in Sources */,
+				D067A0598D9D9B2D4FA7EB044621C656 /* NSObject+MJCoding.m in Sources */,
+				B237EE4D6F7A35CCF0D9D7D7C0928C73 /* NSObject+MJKeyValue.m in Sources */,
+				294F3BD474149338A52A6A38D35E0B20 /* NSObject+MJProperty.m in Sources */,
+				A9691D42BB8FF059C0742A5D612889C0 /* NSString+MJExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4962C9C292AEFFE5F9C38D2D21A02B48 /* Sources */ = {
+		4C8D2F8115F217336AE8411DB775A51C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59A28C2CEFC4537C9DAF55D01C4ACED1 /* MJExtension-dummy.m in Sources */,
-				CD4D283A61707C386754BBD31F5BEABB /* MJExtensionConst.m in Sources */,
-				F53BE19B2CB360AC554A04B27DED8519 /* MJFoundation.m in Sources */,
-				E697D14E581CAEE081A1F6B467A014B7 /* MJProperty.m in Sources */,
-				0A1D1BA5F4A6861F59960AE501A61367 /* MJPropertyKey.m in Sources */,
-				094E6ECE34F0CCB085FAA095D24708F4 /* MJPropertyType.m in Sources */,
-				7410B2A65C0651D85D3B173865D3026B /* NSObject+MJClass.m in Sources */,
-				8EC1C8F8C76EDF5D019E8EBA01C2ABB3 /* NSObject+MJCoding.m in Sources */,
-				0B67D51C35E79EE135E38084317053DA /* NSObject+MJKeyValue.m in Sources */,
-				068F6DF04EF0371EEC29C6787B63910B /* NSObject+MJProperty.m in Sources */,
-				1F3AA5B9EBAAD134BF25B0B89FDF108B /* NSString+MJExtension.m in Sources */,
+				ED020388839A8B859B8DCFE6358D13C8 /* CocoaAction.swift in Sources */,
+				7EF1A629F5F13A19EDE43FE6FFFA8898 /* CocoaTarget.swift in Sources */,
+				00C0987C7C784E7DDBDA665ABDA1B41B /* DelegateProxy.swift in Sources */,
+				E98E1F19FF94E96F4317B0D36ACCA3F1 /* Deprecations+Removals.swift in Sources */,
+				B8332F8B755B7DE743DD45213E5C5E55 /* DynamicProperty.swift in Sources */,
+				32BA26684908B13DAE00C5FF74375154 /* MKMapView.swift in Sources */,
+				B712B74F1FD49EFCC30191FF52621166 /* NSLayoutConstraint.swift in Sources */,
+				9E756A24C7923F180640003653F9C0DF /* NSObject+Association.swift in Sources */,
+				C45C4FA7B3AB7D1D1D6C203097E6B517 /* NSObject+BindingTarget.swift in Sources */,
+				1C5D0A9A917B64C91FC89DBF3F61ECFD /* NSObject+Intercepting.swift in Sources */,
+				DD75F168646C6BE01BFED4DCEC98E2CA /* NSObject+KeyValueObserving.swift in Sources */,
+				4BE912DF74C7ECEC0BF3857150A536CA /* NSObject+Lifetime.swift in Sources */,
+				2C58C145F07ACF253FCF66D0C2A0AD06 /* NSObject+ObjCRuntime.swift in Sources */,
+				C6F4AFEE4A3868BE0CC846E4F2470D16 /* NSObject+ReactiveExtensionsProvider.swift in Sources */,
+				78E8F7994020912AE3B56D8D001BD480 /* NSObject+Synchronizing.swift in Sources */,
+				7E58CFF81C05DB4FDD3DE7ED13853FF4 /* ObjC+Constants.swift in Sources */,
+				16EA0E2BF9AC105240EAE4D7ED8074A6 /* ObjC+Messages.swift in Sources */,
+				8E5944DFC7D64B7B3558C0DB44A5655A /* ObjC+Runtime.swift in Sources */,
+				360E57F5301BE39AB8E022B4AE9CA698 /* ObjC+RuntimeSubclassing.swift in Sources */,
+				30F0DF738190BF292BBA46EFED2A7A4E /* ObjC+Selector.swift in Sources */,
+				EE07D81D602E90F7951B974E26F487E2 /* ObjCRuntimeAliases.m in Sources */,
+				1E8AB98A9951E6836362F8ACE3E25D6F /* ReactiveCocoa-dummy.m in Sources */,
+				96AD8CD4C55651DD3AB72F2A89439859 /* ReactiveSwift+Lifetime.swift in Sources */,
+				91CA46BC736A5ED8F6B8B274227D6A4A /* ReusableComponents.swift in Sources */,
+				23C1B7920CF9440746782E683BCE2184 /* UIActivityIndicatorView.swift in Sources */,
+				E6772CA82AB574036B21E3AC16DB6B9C /* UIBarButtonItem.swift in Sources */,
+				78B9D556428339A8888A507371FD944D /* UIBarItem.swift in Sources */,
+				F01A5BC2DBBAED803D5942D9CFFADA69 /* UIButton.swift in Sources */,
+				FA3777A2250D402211DFC5D6A4212D8C /* UICollectionView.swift in Sources */,
+				28F2A48EB6D89C22CE1BACF861DFB444 /* UIControl.swift in Sources */,
+				DD66F95B52A84F01E4F5BB3189BF496A /* UIDatePicker.swift in Sources */,
+				556C27E823CDC2DF655A6FAF6D70CF35 /* UIFeedbackGenerator.swift in Sources */,
+				3315C85FAA2A265D2FD5C92E610A1A56 /* UIGestureRecognizer.swift in Sources */,
+				99C5DD649642BCC0CEC7DF528C9C7746 /* UIImageView.swift in Sources */,
+				107F08836C69745449052290594CBB25 /* UIImpact​Feedback​Generator.swift in Sources */,
+				6E96B7600C89CB40307526EB6B7E841E /* UIKeyboard.swift in Sources */,
+				A18D1303B244946C1E74A1228D86A84C /* UILabel.swift in Sources */,
+				4398D0A4D9BB392EDB5D4835CB24A147 /* UINavigationItem.swift in Sources */,
+				F5213629727617696FDA68EBEC7E43BD /* UINotification​Feedback​Generator.swift in Sources */,
+				DD44099687C9420E03A596D59258C2C1 /* UIPickerView.swift in Sources */,
+				80D5EAEAED7E22CA58A8F1AFB3019061 /* UIProgressView.swift in Sources */,
+				7E93456E2D7901FA751C86FB611684EE /* UIRefreshControl.swift in Sources */,
+				09690A0911C7CF4611A09D161CECE39F /* UIScrollView.swift in Sources */,
+				3351DC0E241934B7F03AFE3493A1AC7F /* UISearchBar.swift in Sources */,
+				BDEF47C3DAA16723AA8B7E21F83504A3 /* UISegmentedControl.swift in Sources */,
+				B5370C4E3B4B547DED47A68001B3731A /* UISelection​Feedback​Generator.swift in Sources */,
+				DADAEC62679172CFC3D95E5B36BD7D5D /* UISlider.swift in Sources */,
+				86FC38D3435FB633A51F55645A2C85D8 /* UIStepper.swift in Sources */,
+				D51FD04C311F58C64E8528D13BF6E2FE /* UISwitch.swift in Sources */,
+				E6F8A7DD28E55E6980F639238E27F8DF /* UITabBarItem.swift in Sources */,
+				D65F8FF20290E4401F645C45E019342A /* UITableView.swift in Sources */,
+				A666A55CAD6391050C90B8819522007F /* UITextField.swift in Sources */,
+				DA363192309644D14A51CDAC5244F307 /* UITextView.swift in Sources */,
+				B97D1E8033730FA1116731F26F8045EC /* UIView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6A10001116C48A3F5FDB7E1BC749EECD /* Sources */ = {
+		7331E6B3565E389877615C6A86C93326 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A3591DEDA776B48C026E7F9144981E58 /* AFAutoPurgingImageCache.m in Sources */,
-				EAF16633DB3C992CF975BE4A2932D41C /* AFHTTPSessionManager.m in Sources */,
-				A398D63C8DED664D99A864D79881A13C /* AFImageDownloader.m in Sources */,
-				649E78B5EA450FABDF5201E31F265FAB /* AFNetworkActivityIndicatorManager.m in Sources */,
-				CF287829627F26B2EB4382B897D06A0E /* AFNetworking-dummy.m in Sources */,
-				DD887A93A200A87A51B3D00BD1B80D20 /* AFNetworkReachabilityManager.m in Sources */,
-				CEB2F0E229EF841D92C780C3FFDF1BEA /* AFSecurityPolicy.m in Sources */,
-				29476636EA86BEFC4CB833D3BB7A52D7 /* AFURLRequestSerialization.m in Sources */,
-				5A1D34D104D42B1EE399E23BCD7935A0 /* AFURLResponseSerialization.m in Sources */,
-				D4E80BD7EAAB83200183110578A80591 /* AFURLSessionManager.m in Sources */,
-				140F458AB7312414FC423FEED70A3733 /* UIActivityIndicatorView+AFNetworking.m in Sources */,
-				32076D3DD644045CF79DFFEBB6BFF3F2 /* UIButton+AFNetworking.m in Sources */,
-				F2D899C7AA0D7FC20160091BB9D31CF3 /* UIImageView+AFNetworking.m in Sources */,
-				34C88657FE7ABE9F833623F94952D253 /* UIProgressView+AFNetworking.m in Sources */,
-				B16A078FC7FBC172A266A336AEF7F673 /* UIRefreshControl+AFNetworking.m in Sources */,
-				7CE16B1BF75DF396768A0A3CFD968DB1 /* UIWebView+AFNetworking.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6D4ECE0A60E69F261AA10FE2CB90A0AC /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				621B413DAEFE75991251ED378822527C /* MJRefresh-dummy.m in Sources */,
-				D46545D206874E3A223372C84F1EA73E /* MJRefreshAutoFooter.m in Sources */,
-				7EFDAA1642FA83DE777CFD086182D5A4 /* MJRefreshAutoGifFooter.m in Sources */,
-				344DB99F8332029C0391F08B6D0E425C /* MJRefreshAutoNormalFooter.m in Sources */,
-				1843E6DF520A5EFE9C83C38E18578E42 /* MJRefreshAutoStateFooter.m in Sources */,
-				E80DB5D9B2D35085282DF057BB540AFE /* MJRefreshBackFooter.m in Sources */,
-				D66E78D63935A98894E702D922AA8B91 /* MJRefreshBackGifFooter.m in Sources */,
-				101F836F887C01B45F4DCF351EBC28D1 /* MJRefreshBackNormalFooter.m in Sources */,
-				2524EC4EF024A6C067A0FA082084CFB5 /* MJRefreshBackStateFooter.m in Sources */,
-				F68EA720B0ED1BF96CEBF07977A1C0A2 /* MJRefreshComponent.m in Sources */,
-				8069223DDD6D0F2E1A87D8E66966709B /* MJRefreshConst.m in Sources */,
-				3829CBCC3598DB13C2AD3B7383D1F24A /* MJRefreshFooter.m in Sources */,
-				FD31283E2A43955C5BA6FA9008EE8D7C /* MJRefreshGifHeader.m in Sources */,
-				8DC3FC2342EC2E944B3A3E83E2683130 /* MJRefreshHeader.m in Sources */,
-				E57312010AFB591EE37870F65E651EA6 /* MJRefreshNormalHeader.m in Sources */,
-				07159A933B3C47A02FE2B2744ABAAC89 /* MJRefreshStateHeader.m in Sources */,
-				F4A57F7C1F8184A6DDEABB07FA6D7083 /* NSBundle+MJRefresh.m in Sources */,
-				FB9C6242B11049E2F1062D04565E568D /* UIScrollView+MJExtension.m in Sources */,
-				8B855A73B75155FB2C0CB05B54FDDE0D /* UIScrollView+MJRefresh.m in Sources */,
-				0A1E34B4A27DCD62A914F3B028A07E6C /* UIView+MJExtension.m in Sources */,
+				7C4BCA91BFA8FAA4F85A93967B87BEC9 /* Action.swift in Sources */,
+				2A51A657E7A3CDE9A98492C509C6C978 /* Atomic.swift in Sources */,
+				F0FE992CBC44FC8FDC5223769EAC24F4 /* Bag.swift in Sources */,
+				0680838D6ACAD4DC119F8A7EE19FC654 /* Deprecations+Removals.swift in Sources */,
+				1B500DE74D98F9B5E16786EB16AB9E37 /* Disposable.swift in Sources */,
+				48BB8C74B5781B42A8EC13E410561610 /* Event.swift in Sources */,
+				55F2D1F6E604FE977DD64AB7BA26E297 /* EventLogger.swift in Sources */,
+				5C7CFCDB8A7BA0B8887C1D127186CAC4 /* Flatten.swift in Sources */,
+				2D435312F0DFA69003EB72D0D14472DE /* FoundationExtensions.swift in Sources */,
+				A04145DE93F93E072DAD767FBD7AF0B2 /* InhabitableTypeGuards.swift in Sources */,
+				E05EA874454B3EB196405F574EEA6DD0 /* Lifetime.swift in Sources */,
+				DEFFC318C4823AD645F9F0CE926D9E3F /* Observer.swift in Sources */,
+				49F937417F75D608C627D4B150A53E59 /* Optional.swift in Sources */,
+				E49C9EE0BC44DE79D2A9E342706E5196 /* Property.swift in Sources */,
+				AAEB93ADD9512F1A31D90BA1FB5B4E42 /* Reactive.swift in Sources */,
+				65FFFF5E8E569ECD2F9E1F46330E632A /* ReactiveSwift-dummy.m in Sources */,
+				478487BDABB2ECCF1F9C0E966AA05A69 /* ResultExtensions.swift in Sources */,
+				29A39E506282F8FA6FA3A560814ED0AD /* Scheduler.swift in Sources */,
+				6061023196B0CDA48FDC2424A358D48A /* Signal.swift in Sources */,
+				ECEBDD4C3D02A2C75821D42B05BB1B45 /* SignalProducer.swift in Sources */,
+				4CFB07B584458997A37EB9E16BE017C2 /* UnidirectionalBinding.swift in Sources */,
+				02EF2AA556A3EF5F8062C703A919FE88 /* ValidatingProperty.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1681,6 +1704,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B4B988401A7284146496F49F068D8115 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				285049E4D97FF1782887F2BAD0441DAD /* MJRefresh-dummy.m in Sources */,
+				8089F6CAF2EEEF5D6E1411533AB9D8DB /* MJRefreshAutoFooter.m in Sources */,
+				38CE88F20A27748EB841B690B1FE6343 /* MJRefreshAutoGifFooter.m in Sources */,
+				ABFFE148EC22103B38EF2D964CADEC17 /* MJRefreshAutoNormalFooter.m in Sources */,
+				B162A05AE7918B8BF6C533D25AD25B46 /* MJRefreshAutoStateFooter.m in Sources */,
+				020002AD44B16CF561F4B515B83B37D7 /* MJRefreshBackFooter.m in Sources */,
+				EBDFEA34F4003D75220715399B6C3279 /* MJRefreshBackGifFooter.m in Sources */,
+				2E0C482BA4A49D6CF30D6AAF6315D4DD /* MJRefreshBackNormalFooter.m in Sources */,
+				AB6E70659F280788E2E7BCA7B29FD8DC /* MJRefreshBackStateFooter.m in Sources */,
+				552598A73013491F8F0894DA5F08E607 /* MJRefreshComponent.m in Sources */,
+				D2E8A7B89A550FA22DEE1319ADB83A4E /* MJRefreshConst.m in Sources */,
+				13FF8C00ED53DD54B47ADB3972788138 /* MJRefreshFooter.m in Sources */,
+				2EC27B08E73E6C445CD4D331BEE1C17C /* MJRefreshGifHeader.m in Sources */,
+				F11B31B90EEBB584A377317B648B2EB7 /* MJRefreshHeader.m in Sources */,
+				E96DAB7057DDB91D1C7E3F907050A30B /* MJRefreshNormalHeader.m in Sources */,
+				5A3757D57032A476B065E18CB25D40B4 /* MJRefreshStateHeader.m in Sources */,
+				F437C1606A64B938C748611EE2682320 /* NSBundle+MJRefresh.m in Sources */,
+				4B9A4EA5159D22BE35680B661962CA43 /* UIScrollView+MJExtension.m in Sources */,
+				85A17793EA5D2ADEF49EFD9C9FF27CD2 /* UIScrollView+MJRefresh.m in Sources */,
+				92052E4BAA96409F6A341A912716CF0D /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B6B59972865154AB3DB931526333C034 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1689,103 +1739,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8A42F9334D7DF52FEB9417CB1142581 /* Sources */ = {
+		B83075BB3BC0577FA6682E61B16992ED /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5CA526281C250EBBDB4794B57C649CF /* CocoaAction.swift in Sources */,
-				1229B0207F34407E7FA0D36D8C20D658 /* CocoaTarget.swift in Sources */,
-				B4D6505B4698894E3F2857974B463B40 /* DelegateProxy.swift in Sources */,
-				C658FC3F3030B2886EC992C174D265EC /* Deprecations+Removals.swift in Sources */,
-				D0E730FD143E9BEE6931CC36E4F64EB0 /* DynamicProperty.swift in Sources */,
-				BC9F86BF5E562916077590AF3F3354D2 /* MKMapView.swift in Sources */,
-				DA24245BF4349825F8230722D02ED671 /* NSLayoutConstraint.swift in Sources */,
-				50BF3A4604A7493940515D86E7A45CA5 /* NSObject+Association.swift in Sources */,
-				AC25AB4195165833B6667F3DC361ED4C /* NSObject+BindingTarget.swift in Sources */,
-				E9EF190DAEB3B6BAED3964EC6156C7D3 /* NSObject+Intercepting.swift in Sources */,
-				3D7035386B36B84F8CB6748B3AC9D360 /* NSObject+KeyValueObserving.swift in Sources */,
-				ADA80EB1D4085D35EB5EAFFEDBA5053C /* NSObject+Lifetime.swift in Sources */,
-				39FA8ECF2B2C7E8CE02A2489B6855CA9 /* NSObject+ObjCRuntime.swift in Sources */,
-				F4AC17F3F74A8B9BD56DD0C289668654 /* NSObject+ReactiveExtensionsProvider.swift in Sources */,
-				C39E6F419ACABA140172E4DBA9398A93 /* NSObject+Synchronizing.swift in Sources */,
-				362F5E901BCB7766B3B8CC2C823844E5 /* ObjC+Constants.swift in Sources */,
-				263C7F9B9880E1FFB387B60FA717472D /* ObjC+Messages.swift in Sources */,
-				FD83F2F2F9ECD54CB436A462A27B6262 /* ObjC+Runtime.swift in Sources */,
-				51E9CA84A50D1CD508BD5F4459C21ADC /* ObjC+RuntimeSubclassing.swift in Sources */,
-				DC01A8D24834F5A37E762A3F987C1FEC /* ObjC+Selector.swift in Sources */,
-				66EE17493F749CACAC8C9B0BDEC8B785 /* ObjCRuntimeAliases.m in Sources */,
-				2E30C1BC2A5D6FCC2F7F97CB9E9F2E34 /* ReactiveCocoa-dummy.m in Sources */,
-				BCAC5A3E9FCDC0243A299E0D5EFB9874 /* ReactiveSwift+Lifetime.swift in Sources */,
-				B0219ECAFF7660231DADF624B72BEB03 /* ReusableComponents.swift in Sources */,
-				9B168DE831DA427213D52489A815420E /* UIActivityIndicatorView.swift in Sources */,
-				1CBDA9AFD57EE77CDE5CD9E572D59CDF /* UIBarButtonItem.swift in Sources */,
-				6C0B1A90F0DD4B92389EEE0BF3C3BBAD /* UIBarItem.swift in Sources */,
-				25850414BF45997910172701B2BED53D /* UIButton.swift in Sources */,
-				6511C781D299F67EC7212FA6FA773385 /* UICollectionView.swift in Sources */,
-				69B6E98A4FF5BF7F2C48B8EEB6BDEDBF /* UIControl.swift in Sources */,
-				38176B6CA9F9864BD67E4C4C0F32588F /* UIDatePicker.swift in Sources */,
-				0130B6ADB362A3712BDED0209D62F5AA /* UIFeedbackGenerator.swift in Sources */,
-				21018C0B2CBAC62777A3F77DFA8A793E /* UIGestureRecognizer.swift in Sources */,
-				26D419A792B77038FC26D877818B5716 /* UIImageView.swift in Sources */,
-				680E88AA7A6CFF1205700BEC0AC84FEF /* UIImpact​Feedback​Generator.swift in Sources */,
-				68341C32925DB2E37113D03F4DBAC014 /* UIKeyboard.swift in Sources */,
-				DB36B7D2900C4816EB79F2574F432F21 /* UILabel.swift in Sources */,
-				18692C1EB983A36896287BED4C3CE58C /* UINavigationItem.swift in Sources */,
-				729640053E5EFF75167E9DDEE76C625E /* UINotification​Feedback​Generator.swift in Sources */,
-				895D9D2675D8D5FB59E26EE3C17AA8C5 /* UIPickerView.swift in Sources */,
-				C2A9B8BC820F2322AD6B4FFE9D0F491B /* UIProgressView.swift in Sources */,
-				A42BAF82E9844B2E032A9A95FC48586C /* UIRefreshControl.swift in Sources */,
-				821764AABD1BD1191906FCC3FE37BB47 /* UIScrollView.swift in Sources */,
-				D44CC32135A23946AD53BA6DDD404D05 /* UISearchBar.swift in Sources */,
-				E7DD6DD4CA8187D5D9B2717B434A97D7 /* UISegmentedControl.swift in Sources */,
-				1E93042963DE5B6864983D39A84715BB /* UISelection​Feedback​Generator.swift in Sources */,
-				56732319FB42C6D689693D456D9B786F /* UISlider.swift in Sources */,
-				3168B793708836D2E69CE5D25DDD4FE0 /* UIStepper.swift in Sources */,
-				D5A5A2A0DD1C1D49814C17B2635C3AC6 /* UISwitch.swift in Sources */,
-				F79B6C5EAEEA24722B8275677D8E70CA /* UITabBarItem.swift in Sources */,
-				E8E2AF0637F5C941AB6DA639CB509760 /* UITableView.swift in Sources */,
-				CBA4F9525FDF0808B651C9E822D8FC41 /* UITextField.swift in Sources */,
-				11D07A4134C4F6158513512E8C1A02ED /* UITextView.swift in Sources */,
-				53970DAFDB7DBF55A158CA71EA191CB4 /* UIView.swift in Sources */,
+				41DC6547C2367CF8CBBFE2C8FAFB5401 /* BabyBluetooth-dummy.m in Sources */,
+				300CBC0CAF94969CD455A181B8C9F586 /* BabyBluetooth.m in Sources */,
+				5479D7A0A80FEBBAD08E8229384572A3 /* BabyCallback.m in Sources */,
+				A5B4A382BE58D0FAB9D502EA925E335E /* BabyCentralManager.m in Sources */,
+				D44FEB0DD4B64FAC0311BBD3CFCCB6F5 /* BabyDefine.m in Sources */,
+				7D0AED2B16598B3B715E4457DD55DA3D /* BabyOptions.m in Sources */,
+				A5FD97565CF562048EFD731E80B53BEC /* BabyPeripheralManager.m in Sources */,
+				939F3FAAF8FF5FFD1678D2EE098262D2 /* BabyRhythm.m in Sources */,
+				D0652E50E98F985CE1EEA18C9B037FFE /* BabySpeaker.m in Sources */,
+				4CC7D5524DB3A1C2E3D3BDF98A23AFEE /* BabyToy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D8C87782B62CA6E1AF6384E008AAA7D2 /* Sources */ = {
+		D94317574E08CB4759CAA070BC3737EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				376FE8330EA6E1FE75D3E5E87A6EA9F3 /* Result-dummy.m in Sources */,
-				8718568C64CCDC8F6BDFACC6674D7F12 /* Result.swift in Sources */,
-				5959BA6CA6E3C82D62E2178A91DDB0C6 /* ResultProtocol.swift in Sources */,
+				4EE3BD6F91C2EEDDE9FA1E2CD4B23F07 /* AFAutoPurgingImageCache.m in Sources */,
+				43BBDF9D05E91AEAFFDE8A9790F7F890 /* AFHTTPSessionManager.m in Sources */,
+				075BD03B22848B54C3D82D5E1E796EAF /* AFImageDownloader.m in Sources */,
+				CE15ED34E516492B692295B8152D14F0 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				A448AD2E7B7F771F9B4302511437E535 /* AFNetworking-dummy.m in Sources */,
+				1B3F47733A58136F5BECDD0850BE8E6C /* AFNetworkReachabilityManager.m in Sources */,
+				B82E5F92C6C2C65F88EB02617FB7F66C /* AFSecurityPolicy.m in Sources */,
+				EE3E4EA44FA96A5930FCEF7044D3AB5E /* AFURLRequestSerialization.m in Sources */,
+				95FC0FEF5ADF047CB051976738B67239 /* AFURLResponseSerialization.m in Sources */,
+				455C3561EE4A831049FB8A04CA79894F /* AFURLSessionManager.m in Sources */,
+				E524D6FE1036EE7492422F895E7DB1FB /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				60E1BD88B7F2CB8B3ED3DABC67DAF73F /* UIButton+AFNetworking.m in Sources */,
+				413A7D4623004DD3DBD888B4CDB8F07A /* UIImageView+AFNetworking.m in Sources */,
+				46A45325921A22AAAE2AC187C79799FF /* UIProgressView+AFNetworking.m in Sources */,
+				C62CEBDFFE085D648853CC4DCF866DE7 /* UIRefreshControl+AFNetworking.m in Sources */,
+				573C74898228FFEC7742FD3BAD6D25E1 /* UIWebView+AFNetworking.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E69B89355ABD5A0F5B5A4DEFB1E449BB /* Sources */ = {
+		E79EACF7D464AAE214D8D066557334C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E47212209EF96D93DB8D3CDCCAD2B585 /* Action.swift in Sources */,
-				009853900BA6267B7B88616DBADE470E /* Atomic.swift in Sources */,
-				28A464AD5B0155EE07A1E77244BD14C3 /* Bag.swift in Sources */,
-				55228D44E0DE6ABE42603DA6EEB8B7FA /* Deprecations+Removals.swift in Sources */,
-				E66682644C9C8FE19D1754FDD17E4A23 /* Disposable.swift in Sources */,
-				42B88A97F14516FCEC12484B3C5724D4 /* Event.swift in Sources */,
-				57A3042B509B6278282CEE76C0663B25 /* EventLogger.swift in Sources */,
-				6294D2CBD9FEE1D4BB0AB8B9C099DDBF /* Flatten.swift in Sources */,
-				51F54E5D31E3A6FF812BF34525A27171 /* FoundationExtensions.swift in Sources */,
-				FD88BDCDFB9CC30E84DFAF25F9927FC0 /* InhabitableTypeGuards.swift in Sources */,
-				A172DD507D6443EC0A58ABC4ADBDFDB4 /* Lifetime.swift in Sources */,
-				3EC66D399823676551208E8990FBA3F7 /* Observer.swift in Sources */,
-				0FBCF6CD9104A53653169ED5E9974205 /* Optional.swift in Sources */,
-				9B718559C6658DEDACC34A0E22437E4D /* Property.swift in Sources */,
-				25EE58D1F20FD0A2CD185C7419C00172 /* Reactive.swift in Sources */,
-				6BFA94BB6858DC2473A4AEEFABE85149 /* ReactiveSwift-dummy.m in Sources */,
-				EB93B3ED8B09C1C45DF716D3DEF56F5B /* ResultExtensions.swift in Sources */,
-				DB584C6C11BDF0E77911085BA6C2DE0F /* Scheduler.swift in Sources */,
-				23C385110F6A010D1B8536C87886CFFF /* Signal.swift in Sources */,
-				7DBDF203A649260227A313C8AD9722A4 /* SignalProducer.swift in Sources */,
-				1E4977787B252F2B466457F0DB46BBB8 /* UnidirectionalBinding.swift in Sources */,
-				A10B36D4A57FD7255B95788B703D6D90 /* ValidatingProperty.swift in Sources */,
+				E3623BE0401E9570E8A40F3A27B5064B /* Result-dummy.m in Sources */,
+				6F6EAA739715B2BAC0F339FF68B2484C /* Result.swift in Sources */,
+				74FDCA8C3A4DA9BC694AC038F2CFDAAC /* ResultProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
