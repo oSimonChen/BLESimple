@@ -8,9 +8,12 @@
 
 #import "ViewController.h"
 #import <BabyBluetooth/BabyBluetooth.h>
+#import <ReactiveCocoa/ReactiveCocoa.h>
 
-@interface ViewController ()
-
+@interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
+@property (nonatomic ,strong) UITableView *tableview;
+@property (nonatomic ,strong) NSMutableArray *BLEIds;
+@property (nonatomic ,strong) NSMutableDictionary *dataDict;
 @end
 
 @implementation ViewController{
@@ -18,23 +21,62 @@
     BabyBluetooth *_baby;
 }
 
+static NSString *const worksCellId      = @"worksCellId";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self bbtoothSet];
+    [self setupView];
+}
+
+- (void)setupView{
+
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:(UITableViewStylePlain)];
+
+    tableView.delegate = self;
+    tableView.dataSource = self;
+
+    self.tableview = tableView;
+
+    [tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:worksCellId];
+
+
+    [self.view addSubview:_tableview];
+}
+
+- (void)setUpData{
+}
+
+- (void)bbtoothSet{
 
     _baby = [BabyBluetooth shareBabyBluetooth];
-
     [self babyDelegate];
-
     _baby.scanForPeripherals().begin();
 }
 
 - (void)babyDelegate{
 
+    if (!self.BLEIds) {
+        self.BLEIds = @[].mutableCopy;
+    }
+
+    if (!self.dataDict) {
+        self.dataDict = @{}.mutableCopy;
+    }
+
+    __weak typeof(self) weakSelf = self;
+
     [_baby setBlockOnDiscoverToPeripherals:^(CBCentralManager *central, CBPeripheral *peripheral, NSDictionary *advertisementData, NSNumber *RSSI) {
 
         NSLog(@"搜索到了设备:%@",peripheral.name);
 
+        [weakSelf.BLEIds addObject:peripheral.name];
+
+        NSString *key = [NSString stringWithFormat:@"%@",peripheral.name];
+
+        [weakSelf.dataDict setValue:@"" forKey:key];
+
+        [weakSelf.tableview reloadData];
     }];
 
 
@@ -54,6 +96,25 @@
     }];
 
 }
+
+#pragma mark -
+#pragma mark - UITableViewDelegate && UITableViewDataSource
+#pragma mark -
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+
+    return self.dataDict.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:worksCellId forIndexPath:indexPath];
+
+    cell.textLabel.text = _dataDict.allKeys[indexPath.row];
+
+    return cell;
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

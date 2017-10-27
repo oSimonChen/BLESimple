@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00D12F3315D7E05F785D9CAA /* libPods-BlueToothDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB9F2F9D04AC51F9CEE9C989 /* libPods-BlueToothDemo.a */; };
-		47AF4CE0B217F02AFCAEF63B /* libPods-BlueToothDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C7E4EA78D2E277B45060CC8 /* libPods-BlueToothDemoUITests.a */; };
 		47B07A041FA1FE3B0070CCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A031FA1FE3B0070CCF9 /* AppDelegate.m */; };
 		47B07A071FA1FE3B0070CCF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A061FA1FE3B0070CCF9 /* ViewController.m */; };
 		47B07A0A1FA1FE3B0070CCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B07A081FA1FE3B0070CCF9 /* Main.storyboard */; };
@@ -17,7 +15,9 @@
 		47B07A121FA1FE3B0070CCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A111FA1FE3B0070CCF9 /* main.m */; };
 		47B07A1C1FA1FE3B0070CCF9 /* BlueToothDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A1B1FA1FE3B0070CCF9 /* BlueToothDemoTests.m */; };
 		47B07A271FA1FE3C0070CCF9 /* BlueToothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A261FA1FE3C0070CCF9 /* BlueToothDemoUITests.m */; };
-		BC66BDC5B7BA46EC708355B7 /* libPods-BlueToothDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DDB9925B119924CF44ED5618 /* libPods-BlueToothDemoTests.a */; };
+		5EDCF274139485C8EC018D77 /* Pods_BlueToothDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CD2D6593376A830CC30EDF /* Pods_BlueToothDemoTests.framework */; };
+		C2D2E2ADF5234BFEF79F328A /* Pods_BlueToothDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFCEA250644F977AD967401 /* Pods_BlueToothDemoUITests.framework */; };
+		E420DCB9AA3DA9772E60E087 /* Pods_BlueToothDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D85BC553D5DEFCCC12783B /* Pods_BlueToothDemo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +39,8 @@
 
 /* Begin PBXFileReference section */
 		0D037FE65CFB7707A338D367 /* Pods-BlueToothDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoUITests/Pods-BlueToothDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		10D85BC553D5DEFCCC12783B /* Pods_BlueToothDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueToothDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DFCEA250644F977AD967401 /* Pods_BlueToothDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueToothDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		45F65B3AB70E277B177FB459 /* Pods-BlueToothDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo.release.xcconfig"; sourceTree = "<group>"; };
 		47B079FF1FA1FE3B0070CCF9 /* BlueToothDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlueToothDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B07A021FA1FE3B0070CCF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -57,12 +59,10 @@
 		47B07A261FA1FE3C0070CCF9 /* BlueToothDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothDemoUITests.m; sourceTree = "<group>"; };
 		47B07A281FA1FE3C0070CCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546C005AD27F6E2CDAB2D755 /* Pods-BlueToothDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoUITests/Pods-BlueToothDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		6C7E4EA78D2E277B45060CC8 /* libPods-BlueToothDemoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueToothDemoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		61CD2D6593376A830CC30EDF /* Pods_BlueToothDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueToothDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8963D6C1DFC76A49B35B4B7A /* Pods-BlueToothDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoTests/Pods-BlueToothDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		8F1FE075391F7B09C079CB4D /* Pods-BlueToothDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoTests/Pods-BlueToothDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B124CB891DCF94065A9BA2F0 /* Pods-BlueToothDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		DDB9925B119924CF44ED5618 /* libPods-BlueToothDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueToothDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EB9F2F9D04AC51F9CEE9C989 /* libPods-BlueToothDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BlueToothDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,7 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00D12F3315D7E05F785D9CAA /* libPods-BlueToothDemo.a in Frameworks */,
+				E420DCB9AA3DA9772E60E087 /* Pods_BlueToothDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,7 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC66BDC5B7BA46EC708355B7 /* libPods-BlueToothDemoTests.a in Frameworks */,
+				5EDCF274139485C8EC018D77 /* Pods_BlueToothDemoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47AF4CE0B217F02AFCAEF63B /* libPods-BlueToothDemoUITests.a in Frameworks */,
+				C2D2E2ADF5234BFEF79F328A /* Pods_BlueToothDemoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,9 +152,9 @@
 		CD5592857C2826BF7F040025 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EB9F2F9D04AC51F9CEE9C989 /* libPods-BlueToothDemo.a */,
-				DDB9925B119924CF44ED5618 /* libPods-BlueToothDemoTests.a */,
-				6C7E4EA78D2E277B45060CC8 /* libPods-BlueToothDemoUITests.a */,
+				10D85BC553D5DEFCCC12783B /* Pods_BlueToothDemo.framework */,
+				61CD2D6593376A830CC30EDF /* Pods_BlueToothDemoTests.framework */,
+				2DFCEA250644F977AD967401 /* Pods_BlueToothDemoUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -412,9 +412,24 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BlueToothDemo/Pods-BlueToothDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/BabyBluetooth/BabyBluetooth.framework",
+				"${BUILT_PRODUCTS_DIR}/MJExtension/MJExtension.framework",
+				"${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveCocoa/ReactiveCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BabyBluetooth.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJExtension.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MJRefresh.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ReactiveSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
