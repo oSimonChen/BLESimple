@@ -9,7 +9,7 @@ target 'BlueToothDemo' do
     pod 'AFNetworking'
     pod 'MJRefresh'
     pod 'MJExtension'
-
+    pod 'BabyBluetooth'
   target 'BlueToothDemoTests' do
     inherit! :search_paths
     # Pods for testing
