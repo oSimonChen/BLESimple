@@ -15,6 +15,14 @@
 		47B07A121FA1FE3B0070CCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A111FA1FE3B0070CCF9 /* main.m */; };
 		47B07A1C1FA1FE3B0070CCF9 /* BlueToothDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A1B1FA1FE3B0070CCF9 /* BlueToothDemoTests.m */; };
 		47B07A271FA1FE3C0070CCF9 /* BlueToothDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A261FA1FE3C0070CCF9 /* BlueToothDemoUITests.m */; };
+		47B07A3C1FA2E5FC0070CCF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A3B1FA2E5FC0070CCF9 /* AppDelegate.m */; };
+		47B07A3F1FA2E5FC0070CCF9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A3E1FA2E5FC0070CCF9 /* ViewController.m */; };
+		47B07A421FA2E5FC0070CCF9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B07A401FA2E5FC0070CCF9 /* Main.storyboard */; };
+		47B07A441FA2E5FC0070CCF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47B07A431FA2E5FC0070CCF9 /* Assets.xcassets */; };
+		47B07A471FA2E5FC0070CCF9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47B07A451FA2E5FC0070CCF9 /* LaunchScreen.storyboard */; };
+		47B07A4A1FA2E5FC0070CCF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A491FA2E5FC0070CCF9 /* main.m */; };
+		47B07A541FA2E5FC0070CCF9 /* peripheralModelTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A531FA2E5FC0070CCF9 /* peripheralModelTests.m */; };
+		47B07A5F1FA2E5FC0070CCF9 /* peripheralModelUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B07A5E1FA2E5FC0070CCF9 /* peripheralModelUITests.m */; };
 		5EDCF274139485C8EC018D77 /* Pods_BlueToothDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61CD2D6593376A830CC30EDF /* Pods_BlueToothDemoTests.framework */; };
 		C2D2E2ADF5234BFEF79F328A /* Pods_BlueToothDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFCEA250644F977AD967401 /* Pods_BlueToothDemoUITests.framework */; };
 		E420DCB9AA3DA9772E60E087 /* Pods_BlueToothDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10D85BC553D5DEFCCC12783B /* Pods_BlueToothDemo.framework */; };
@@ -34,6 +42,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = 47B079FE1FA1FE3B0070CCF9;
 			remoteInfo = BlueToothDemo;
+		};
+		47B07A501FA2E5FC0070CCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B079F71FA1FE3B0070CCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B07A371FA2E5FB0070CCF9;
+			remoteInfo = peripheralModel;
+		};
+		47B07A5B1FA2E5FC0070CCF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 47B079F71FA1FE3B0070CCF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 47B07A371FA2E5FB0070CCF9;
+			remoteInfo = peripheralModel;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -58,6 +80,22 @@
 		47B07A221FA1FE3C0070CCF9 /* BlueToothDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlueToothDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47B07A261FA1FE3C0070CCF9 /* BlueToothDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlueToothDemoUITests.m; sourceTree = "<group>"; };
 		47B07A281FA1FE3C0070CCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B07A381FA2E5FB0070CCF9 /* peripheralModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = peripheralModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B07A3A1FA2E5FC0070CCF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		47B07A3B1FA2E5FC0070CCF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		47B07A3D1FA2E5FC0070CCF9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		47B07A3E1FA2E5FC0070CCF9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		47B07A411FA2E5FC0070CCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		47B07A431FA2E5FC0070CCF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		47B07A461FA2E5FC0070CCF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		47B07A481FA2E5FC0070CCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B07A491FA2E5FC0070CCF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		47B07A4F1FA2E5FC0070CCF9 /* peripheralModelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peripheralModelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B07A531FA2E5FC0070CCF9 /* peripheralModelTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peripheralModelTests.m; sourceTree = "<group>"; };
+		47B07A551FA2E5FC0070CCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		47B07A5A1FA2E5FC0070CCF9 /* peripheralModelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = peripheralModelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		47B07A5E1FA2E5FC0070CCF9 /* peripheralModelUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = peripheralModelUITests.m; sourceTree = "<group>"; };
+		47B07A601FA2E5FC0070CCF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		546C005AD27F6E2CDAB2D755 /* Pods-BlueToothDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoUITests/Pods-BlueToothDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		61CD2D6593376A830CC30EDF /* Pods_BlueToothDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BlueToothDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8963D6C1DFC76A49B35B4B7A /* Pods-BlueToothDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BlueToothDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BlueToothDemoTests/Pods-BlueToothDemoTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -90,6 +128,27 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47B07A351FA2E5FB0070CCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A4C1FA2E5FC0070CCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A571FA2E5FC0070CCF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -99,6 +158,9 @@
 				47B07A011FA1FE3B0070CCF9 /* BlueToothDemo */,
 				47B07A1A1FA1FE3B0070CCF9 /* BlueToothDemoTests */,
 				47B07A251FA1FE3C0070CCF9 /* BlueToothDemoUITests */,
+				47B07A391FA2E5FB0070CCF9 /* peripheralModel */,
+				47B07A521FA2E5FC0070CCF9 /* peripheralModelTests */,
+				47B07A5D1FA2E5FC0070CCF9 /* peripheralModelUITests */,
 				47B07A001FA1FE3B0070CCF9 /* Products */,
 				FF12E2D6D46E59B53FD9B64E /* Pods */,
 				CD5592857C2826BF7F040025 /* Frameworks */,
@@ -111,6 +173,9 @@
 				47B079FF1FA1FE3B0070CCF9 /* BlueToothDemo.app */,
 				47B07A171FA1FE3B0070CCF9 /* BlueToothDemoTests.xctest */,
 				47B07A221FA1FE3C0070CCF9 /* BlueToothDemoUITests.xctest */,
+				47B07A381FA2E5FB0070CCF9 /* peripheralModel.app */,
+				47B07A4F1FA2E5FC0070CCF9 /* peripheralModelTests.xctest */,
+				47B07A5A1FA2E5FC0070CCF9 /* peripheralModelUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -147,6 +212,40 @@
 				47B07A281FA1FE3C0070CCF9 /* Info.plist */,
 			);
 			path = BlueToothDemoUITests;
+			sourceTree = "<group>";
+		};
+		47B07A391FA2E5FB0070CCF9 /* peripheralModel */ = {
+			isa = PBXGroup;
+			children = (
+				47B07A3A1FA2E5FC0070CCF9 /* AppDelegate.h */,
+				47B07A3B1FA2E5FC0070CCF9 /* AppDelegate.m */,
+				47B07A3D1FA2E5FC0070CCF9 /* ViewController.h */,
+				47B07A3E1FA2E5FC0070CCF9 /* ViewController.m */,
+				47B07A401FA2E5FC0070CCF9 /* Main.storyboard */,
+				47B07A431FA2E5FC0070CCF9 /* Assets.xcassets */,
+				47B07A451FA2E5FC0070CCF9 /* LaunchScreen.storyboard */,
+				47B07A481FA2E5FC0070CCF9 /* Info.plist */,
+				47B07A491FA2E5FC0070CCF9 /* main.m */,
+			);
+			path = peripheralModel;
+			sourceTree = "<group>";
+		};
+		47B07A521FA2E5FC0070CCF9 /* peripheralModelTests */ = {
+			isa = PBXGroup;
+			children = (
+				47B07A531FA2E5FC0070CCF9 /* peripheralModelTests.m */,
+				47B07A551FA2E5FC0070CCF9 /* Info.plist */,
+			);
+			path = peripheralModelTests;
+			sourceTree = "<group>";
+		};
+		47B07A5D1FA2E5FC0070CCF9 /* peripheralModelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				47B07A5E1FA2E5FC0070CCF9 /* peripheralModelUITests.m */,
+				47B07A601FA2E5FC0070CCF9 /* Info.plist */,
+			);
+			path = peripheralModelUITests;
 			sourceTree = "<group>";
 		};
 		CD5592857C2826BF7F040025 /* Frameworks */ = {
@@ -237,6 +336,59 @@
 			productReference = 47B07A221FA1FE3C0070CCF9 /* BlueToothDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		47B07A371FA2E5FB0070CCF9 /* peripheralModel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B07A671FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModel" */;
+			buildPhases = (
+				47B07A341FA2E5FB0070CCF9 /* Sources */,
+				47B07A351FA2E5FB0070CCF9 /* Frameworks */,
+				47B07A361FA2E5FB0070CCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = peripheralModel;
+			productName = peripheralModel;
+			productReference = 47B07A381FA2E5FB0070CCF9 /* peripheralModel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		47B07A4E1FA2E5FC0070CCF9 /* peripheralModelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B07A681FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModelTests" */;
+			buildPhases = (
+				47B07A4B1FA2E5FC0070CCF9 /* Sources */,
+				47B07A4C1FA2E5FC0070CCF9 /* Frameworks */,
+				47B07A4D1FA2E5FC0070CCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B07A511FA2E5FC0070CCF9 /* PBXTargetDependency */,
+			);
+			name = peripheralModelTests;
+			productName = peripheralModelTests;
+			productReference = 47B07A4F1FA2E5FC0070CCF9 /* peripheralModelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		47B07A591FA2E5FC0070CCF9 /* peripheralModelUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47B07A691FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModelUITests" */;
+			buildPhases = (
+				47B07A561FA2E5FC0070CCF9 /* Sources */,
+				47B07A571FA2E5FC0070CCF9 /* Frameworks */,
+				47B07A581FA2E5FC0070CCF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				47B07A5C1FA2E5FC0070CCF9 /* PBXTargetDependency */,
+			);
+			name = peripheralModelUITests;
+			productName = peripheralModelUITests;
+			productReference = 47B07A5A1FA2E5FC0070CCF9 /* peripheralModelUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -260,6 +412,20 @@
 						ProvisioningStyle = Automatic;
 						TestTargetID = 47B079FE1FA1FE3B0070CCF9;
 					};
+					47B07A371FA2E5FB0070CCF9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					47B07A4E1FA2E5FC0070CCF9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47B07A371FA2E5FB0070CCF9;
+					};
+					47B07A591FA2E5FC0070CCF9 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 47B07A371FA2E5FB0070CCF9;
+					};
 				};
 			};
 			buildConfigurationList = 47B079FA1FA1FE3B0070CCF9 /* Build configuration list for PBXProject "BlueToothDemo" */;
@@ -278,6 +444,9 @@
 				47B079FE1FA1FE3B0070CCF9 /* BlueToothDemo */,
 				47B07A161FA1FE3B0070CCF9 /* BlueToothDemoTests */,
 				47B07A211FA1FE3C0070CCF9 /* BlueToothDemoUITests */,
+				47B07A371FA2E5FB0070CCF9 /* peripheralModel */,
+				47B07A4E1FA2E5FC0070CCF9 /* peripheralModelTests */,
+				47B07A591FA2E5FC0070CCF9 /* peripheralModelUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -301,6 +470,30 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		47B07A201FA1FE3C0070CCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A361FA2E5FB0070CCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B07A471FA2E5FC0070CCF9 /* LaunchScreen.storyboard in Resources */,
+				47B07A441FA2E5FC0070CCF9 /* Assets.xcassets in Resources */,
+				47B07A421FA2E5FC0070CCF9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A4D1FA2E5FC0070CCF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A581FA2E5FC0070CCF9 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -501,6 +694,32 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		47B07A341FA2E5FB0070CCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B07A3F1FA2E5FC0070CCF9 /* ViewController.m in Sources */,
+				47B07A4A1FA2E5FC0070CCF9 /* main.m in Sources */,
+				47B07A3C1FA2E5FC0070CCF9 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A4B1FA2E5FC0070CCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B07A541FA2E5FC0070CCF9 /* peripheralModelTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47B07A561FA2E5FC0070CCF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47B07A5F1FA2E5FC0070CCF9 /* peripheralModelUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -513,6 +732,16 @@
 			isa = PBXTargetDependency;
 			target = 47B079FE1FA1FE3B0070CCF9 /* BlueToothDemo */;
 			targetProxy = 47B07A231FA1FE3C0070CCF9 /* PBXContainerItemProxy */;
+		};
+		47B07A511FA2E5FC0070CCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B07A371FA2E5FB0070CCF9 /* peripheralModel */;
+			targetProxy = 47B07A501FA2E5FC0070CCF9 /* PBXContainerItemProxy */;
+		};
+		47B07A5C1FA2E5FC0070CCF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 47B07A371FA2E5FB0070CCF9 /* peripheralModel */;
+			targetProxy = 47B07A5B1FA2E5FC0070CCF9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -529,6 +758,22 @@
 			isa = PBXVariantGroup;
 			children = (
 				47B07A0E1FA1FE3B0070CCF9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		47B07A401FA2E5FC0070CCF9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B07A411FA2E5FC0070CCF9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		47B07A451FA2E5FC0070CCF9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				47B07A461FA2E5FC0070CCF9 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -734,6 +979,98 @@
 			};
 			name = Release;
 		};
+		47B07A611FA2E5FC0070CCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		47B07A621FA2E5FC0070CCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModel/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModel;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		47B07A631FA2E5FC0070CCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peripheralModel.app/peripheralModel";
+			};
+			name = Debug;
+		};
+		47B07A641FA2E5FC0070CCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModelTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModelTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/peripheralModel.app/peripheralModel";
+			};
+			name = Release;
+		};
+		47B07A651FA2E5FC0070CCF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModelUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = peripheralModel;
+			};
+			name = Debug;
+		};
+		47B07A661FA2E5FC0070CCF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 242P5CCJT3;
+				INFOPLIST_FILE = peripheralModelUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.chenxingwang.cn.peripheralModelUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = peripheralModel;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -769,6 +1106,33 @@
 			buildConfigurations = (
 				47B07A321FA1FE3C0070CCF9 /* Debug */,
 				47B07A331FA1FE3C0070CCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B07A671FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B07A611FA2E5FC0070CCF9 /* Debug */,
+				47B07A621FA2E5FC0070CCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B07A681FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B07A631FA2E5FC0070CCF9 /* Debug */,
+				47B07A641FA2E5FC0070CCF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47B07A691FA2E5FC0070CCF9 /* Build configuration list for PBXNativeTarget "peripheralModelUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47B07A651FA2E5FC0070CCF9 /* Debug */,
+				47B07A661FA2E5FC0070CCF9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
